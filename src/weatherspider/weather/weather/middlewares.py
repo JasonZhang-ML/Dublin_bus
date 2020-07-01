@@ -7,6 +7,11 @@
 
 from scrapy import signals
 
+from scrapy.http import HtmlResponse
+from selenium import webdriver
+import time
+import random
+from selenium.webdriver.chrome.options import Options
 
 class WeatherSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -49,8 +54,19 @@ class WeatherSpiderMiddleware(object):
         # that it doesn’t have a response associated.
 
         # Must return only requests (not items).
-        for r in start_requests:
-            yield r
+        for request in start_requests:
+            chrome_options = Options()
+            chrome_options.add_argument('--headless')
+            chrome_options.add_argument('--disable-gpu')
+            chrome_options.add_argument('--no-sandbox')
+            driver = webdriver.Chrome("C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe", chrome_options=chrome_options)
+            # driver = webdriver.Chrome("/opt/chromedriver", chrome_options=chrome_options)
+            driver.get(request.url)
+            content = driver.page_source.encode('utf-8')
+            driver.quit()
+            t = random.randint(350,1000)
+            time.sleep(t * 0.01)
+            yield HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
