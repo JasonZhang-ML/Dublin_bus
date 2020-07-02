@@ -1,0 +1,34 @@
+[INFO]2020-06-28 16:16:21,353: request bsi api: https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid=123&format=json
+[INFO]2020-06-28 16:16:21,353: response: 200 OK
+[INFO]2020-06-28 16:16:49,021: request bsi api: https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid=12&format=json
+[INFO]2020-06-28 16:16:49,022: response: 200 OK
+[INFO]2020-06-28 16:19:28,137: request ow api: http://api.openweathermap.org/data/2.5/weather?lat=5.349562&lon=-7.278198&appid=8f67620b4782d168bef1be242f719519&units=Metric
+[INFO]2020-06-28 16:19:28,137: response: 200 OK
+[INFO]2020-06-28 16:19:29,533: request bsi api: https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid=46&format=json
+[INFO]2020-06-28 16:19:29,533: response: 200 OK
+[INFO]2020-06-28 16:20:07,245: request ow api: http://api.openweathermap.org/data/2.5/weather?lat=5.349562&lon=-7.278198&appid=8f67620b4782d168bef1be242f719519&units=Metric
+[INFO]2020-06-28 16:20:07,245: response: 200 OK
+[INFO]2020-06-28 16:20:08,653: request bsi api: https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid=46&format=json
+[INFO]2020-06-28 16:20:08,654: response: 200 OK
+[INFO]2020-06-28 16:20:10,145: request rtbi api: https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid=46&routeid=16&format=json
+[INFO]2020-06-28 16:20:10,145: response: 200 OK
+[INFO]2020-06-28 16:22:01,865: request ow api: http://api.openweathermap.org/data/2.5/weather?lat=5.349562&lon=-7.278198&appid=8f67620b4782d168bef1be242f719519&units=Metric
+[INFO]2020-06-28 16:22:01,865: response: 200 OK
+[INFO]2020-06-28 16:22:03,104: request rtbi api: https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid=46&routeid=&format=json
+[INFO]2020-06-28 16:22:03,105: response: 200 OK
+[INFO]2020-06-28 16:22:04,199: request rtbi api: https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid=46&routeid=16&format=json
+[INFO]2020-06-28 16:22:04,199: response: 200 OK
+[INFO]2020-06-28 16:22:05,584: request ttbi api: https://data.smartdublin.ie/cgi-bin/rtpi/timetableinformation?type=week&stopid=46&routeid=16&format=json
+[INFO]2020-06-28 16:22:05,585: response: 200 OK
+[INFO]2020-06-28 16:22:06,929: request bsi api: https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid=46&format=json
+[INFO]2020-06-28 16:22:06,929: response: 200 OK
+[INFO]2020-06-28 16:26:00,462: request ow api: http://api.openweathermap.org/data/2.5/weather?lat=5.349562&lon=-7.278198&appid=8f67620b4782d168bef1be242f719519&units=Metric
+[INFO]2020-06-28 16:26:00,462: response: 200 OK
+[INFO]2020-06-28 16:26:02,042: request rtbi api: https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid=46&routeid=&format=json
+[INFO]2020-06-28 16:26:02,043: response: 200 OK
+[INFO]2020-06-28 16:26:03,401: request rtbi api: https://data.smartdublin.ie/cgi-bin/rtpi/realtimebusinformation?stopid=46&routeid=16&format=json
+[INFO]2020-06-28 16:26:03,401: response: 200 OK
+[INFO]2020-06-28 16:26:04,857: request ttbi api: https://data.smartdublin.ie/cgi-bin/rtpi/timetableinformation?type=week&stopid=46&routeid=16&format=json
+[INFO]2020-06-28 16:26:04,857: response: 200 OK
+[INFO]2020-06-28 16:26:06,179: request bsi api: https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid=46&format=json
+[INFO]2020-06-28 16:26:06,179: response: 200 OK
