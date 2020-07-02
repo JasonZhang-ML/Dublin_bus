@@ -21,6 +21,17 @@ NEWSPIDER_MODULE = 'weather.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+FEED_EXPORTERS = {
+   'csv': 'weather.weather_csv_exporter.WeatherCsvExporter',
+   }
+
+FIELDS_TO_EXPORT = [
+   'date',
+   'time',
+   'temp',
+   'humid',
+   'condition',
+   ]
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
@@ -46,15 +57,15 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
-SPIDER_MIDDLEWARES = {
-   'weather.middlewares.WeatherSpiderMiddleware': 543,
-}
+# SPIDER_MIDDLEWARES = {
+#    'weather.middlewares.WeatherSpiderMiddleware': 543,
+# }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'weather.middlewares.WeatherDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+   'weather.middlewares.WeatherDownloaderMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
