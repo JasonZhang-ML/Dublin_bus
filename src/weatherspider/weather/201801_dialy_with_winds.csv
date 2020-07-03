@@ -1,0 +1,1488 @@
+date,time,temp,humid,windspeed,condition
+2018/1/1,12:00 AM,39,75,16,Partly Cloudy
+2018/1/1,12:30 AM,37,81,14,Partly Cloudy
+2018/1/1,1:00 AM,39,87,29,Light Rain Shower / Windy
+2018/1/1,1:30 AM,41,81,31,Mostly Cloudy / Windy
+2018/1/1,2:00 AM,39,87,26,Light Rain Shower / Windy
+2018/1/1,2:30 AM,39,87,24,Partly Cloudy / Windy
+2018/1/1,3:00 AM,41,81,28,Partly Cloudy / Windy
+2018/1/1,3:30 AM,41,81,28,Light Rain Shower / Windy
+2018/1/1,4:00 AM,41,81,28,Partly Cloudy / Windy
+2018/1/1,4:30 AM,41,81,21,Partly Cloudy / Windy
+2018/1/1,5:00 AM,41,81,26,Partly Cloudy / Windy
+2018/1/1,5:30 AM,41,81,24,Mostly Cloudy / Windy
+2018/1/1,6:00 AM,41,81,21,Mostly Cloudy / Windy
+2018/1/1,6:30 AM,41,81,17,Mostly Cloudy
+2018/1/1,7:00 AM,41,81,16,Mostly Cloudy
+2018/1/1,7:30 AM,41,81,15,Mostly Cloudy
+2018/1/1,8:00 AM,39,87,13,Mostly Cloudy
+2018/1/1,8:30 AM,39,87,14,Mostly Cloudy
+2018/1/1,9:00 AM,39,87,15,Mostly Cloudy
+2018/1/1,9:30 AM,39,87,15,Mostly Cloudy
+2018/1/1,10:00 AM,39,87,17,Partly Cloudy
+2018/1/1,10:30 AM,41,81,20,Partly Cloudy
+2018/1/1,11:00 AM,41,81,22,Partly Cloudy / Windy
+2018/1/1,11:30 AM,43,81,24,Mostly Cloudy / Windy
+2018/1/1,12:00 PM,43,81,28,Partly Cloudy / Windy
+2018/1/1,12:30 PM,45,76,30,Mostly Cloudy / Windy
+2018/1/1,1:00 PM,45,76,28,Mostly Cloudy / Windy
+2018/1/1,1:30 PM,45,81,31,Light Rain Shower / Windy
+2018/1/1,2:00 PM,45,81,29,Light Rain Shower / Windy
+2018/1/1,2:30 PM,43,87,30,Light Rain Shower / Windy
+2018/1/1,3:00 PM,43,81,28,Partly Cloudy / Windy
+2018/1/1,3:30 PM,45,81,22,Partly Cloudy / Windy
+2018/1/1,4:00 PM,43,87,26,Light Rain Shower / Windy
+2018/1/1,4:30 PM,45,81,26,Mostly Cloudy / Windy
+2018/1/1,5:00 PM,43,81,24,Partly Cloudy / Windy
+2018/1/1,5:30 PM,43,81,21,Fair / Windy
+2018/1/1,6:00 PM,41,81,21,Fair / Windy
+2018/1/1,6:30 PM,41,87,16,Fair
+2018/1/1,7:00 PM,41,87,15,Fair
+2018/1/1,7:30 PM,41,87,15,Fair
+2018/1/1,8:00 PM,41,87,18,Partly Cloudy
+2018/1/1,8:30 PM,41,81,17,Partly Cloudy
+2018/1/1,9:00 PM,41,81,18,Partly Cloudy
+2018/1/1,9:30 PM,41,76,17,Partly Cloudy
+2018/1/1,10:00 PM,39,81,20,Partly Cloudy
+2018/1/1,10:30 PM,39,81,20,Partly Cloudy
+2018/1/1,11:00 PM,37,81,17,Partly Cloudy
+2018/1/1,11:30 PM,37,81,16,Partly Cloudy
+2018/1/2,12:00 AM,43,87,32,Light Rain Shower / Windy
+2018/1/2,12:30 AM,41,87,28,Mostly Cloudy / Windy
+2018/1/2,1:00 AM,39,75,13,Partly Cloudy
+2018/1/2,1:30 AM,39,75,13,Mostly Cloudy
+2018/1/2,2:00 AM,39,75,14,Mostly Cloudy
+2018/1/2,2:30 AM,39,75,12,Mostly Cloudy
+2018/1/2,3:00 AM,39,75,7,Mostly Cloudy
+2018/1/2,3:30 AM,39,75,7,Mostly Cloudy
+2018/1/2,4:00 AM,39,75,7,Mostly Cloudy
+2018/1/2,4:30 AM,39,75,6,Mostly Cloudy
+2018/1/2,5:00 AM,39,75,5,Mostly Cloudy
+2018/1/2,5:30 AM,41,76,10,Mostly Cloudy
+2018/1/2,6:00 AM,41,76,12,Mostly Cloudy
+2018/1/2,6:30 AM,41,76,10,Light Rain
+2018/1/2,7:00 AM,41,81,7,Light Rain
+2018/1/2,7:30 AM,43,87,10,Light Rain
+2018/1/2,8:00 AM,43,93,14,Light Rain
+2018/1/2,8:30 AM,43,93,14,Light Rain
+2018/1/2,9:00 AM,45,87,10,Light Rain
+2018/1/2,9:30 AM,46,87,13,Light Rain
+2018/1/2,10:00 AM,48,87,20,Light Rain
+2018/1/2,10:30 AM,48,87,23,Light Rain / Windy
+2018/1/2,11:00 AM,48,87,24,Partly Cloudy / Windy
+2018/1/2,11:30 AM,48,87,22,Partly Cloudy / Windy
+2018/1/2,12:00 PM,48,87,22,Mostly Cloudy / Windy
+2018/1/2,12:30 PM,50,82,23,Mostly Cloudy / Windy
+2018/1/2,1:00 PM,50,76,28,Mostly Cloudy / Windy
+2018/1/2,1:30 PM,50,76,26,Mostly Cloudy / Windy
+2018/1/2,2:00 PM,50,76,24,Mostly Cloudy / Windy
+2018/1/2,2:30 PM,50,76,22,Showers in the Vicinity
+2018/1/2,3:00 PM,50,76,23,Light Rain / Windy
+2018/1/2,3:30 PM,48,82,21,Light Rain / Windy
+2018/1/2,4:00 PM,48,87,20,Light Rain
+2018/1/2,4:30 PM,46,93,16,Light Rain
+2018/1/2,5:00 PM,46,93,13,Light Rain
+2018/1/2,5:30 PM,46,93,15,Light Rain
+2018/1/2,6:00 PM,46,87,14,Mostly Cloudy
+2018/1/2,6:30 PM,46,93,12,Light Rain
+2018/1/2,7:00 PM,48,87,12,Light Rain
+2018/1/2,7:30 PM,52,82,24,Mostly Cloudy / Windy
+2018/1/2,8:00 PM,52,82,32,Mostly Cloudy / Windy
+2018/1/2,8:30 PM,50,76,35,Light Rain Shower / Windy
+2018/1/2,9:00 PM,48,71,40,Fair / Windy
+2018/1/2,9:30 PM,48,71,39,Mostly Cloudy / Windy
+2018/1/2,10:00 PM,46,76,41,Mostly Cloudy / Windy
+2018/1/2,10:30 PM,46,76,36,Light Rain Shower / Windy
+2018/1/2,11:00 PM,45,76,37,Mostly Cloudy / Windy
+2018/1/2,11:30 PM,43,87,33,Light Rain Shower / Windy
+2018/1/3,12:00 AM,43,81,18,Partly Cloudy
+2018/1/3,12:30 AM,43,81,14,Partly Cloudy
+2018/1/3,1:00 AM,41,87,24,Light Rain Shower / Windy
+2018/1/3,1:30 AM,41,81,25,Mostly Cloudy / Windy
+2018/1/3,2:00 AM,41,81,29,Partly Cloudy / Windy
+2018/1/3,2:30 AM,41,81,28,Partly Cloudy / Windy
+2018/1/3,3:00 AM,41,87,32,Partly Cloudy / Windy
+2018/1/3,3:30 AM,43,81,30,Partly Cloudy / Windy
+2018/1/3,4:00 AM,41,87,30,Light Rain Shower / Windy
+2018/1/3,4:30 AM,41,87,35,Light Rain Shower / Windy
+2018/1/3,5:00 AM,41,87,31,Light Rain Shower / Windy
+2018/1/3,5:30 AM,41,87,31,Partly Cloudy / Windy
+2018/1/3,6:00 AM,41,87,24,Partly Cloudy / Windy
+2018/1/3,6:30 AM,43,81,24,Partly Cloudy / Windy
+2018/1/3,7:00 AM,43,87,24,Light Rain Shower / Windy
+2018/1/3,7:30 AM,43,87,24,Partly Cloudy / Windy
+2018/1/3,8:00 AM,43,81,36,Partly Cloudy / Windy
+2018/1/3,8:30 AM,45,76,35,Mostly Cloudy / Windy
+2018/1/3,9:00 AM,45,81,32,Mostly Cloudy / Windy
+2018/1/3,9:30 AM,45,81,26,Mostly Cloudy / Windy
+2018/1/3,10:00 AM,45,76,28,Fair / Windy
+2018/1/3,10:30 AM,45,76,30,Fair / Windy
+2018/1/3,11:00 AM,45,76,28,Fair / Windy
+2018/1/3,11:30 AM,45,81,32,Light Rain Shower / Windy
+2018/1/3,12:00 PM,45,76,28,Mostly Cloudy / Windy
+2018/1/3,12:30 PM,45,81,26,Fair / Windy
+2018/1/3,1:00 PM,45,81,26,Light Rain Shower / Windy
+2018/1/3,1:30 PM,45,87,28,Light Rain Shower / Windy
+2018/1/3,2:00 PM,46,76,30,Showers in the Vicinity
+2018/1/3,2:30 PM,45,87,26,Light Rain Shower / Windy
+2018/1/3,3:00 PM,46,76,29,Showers in the Vicinity
+2018/1/3,3:30 PM,46,76,30,Partly Cloudy / Windy
+2018/1/3,4:00 PM,46,76,30,Light Rain Shower / Windy
+2018/1/3,4:30 PM,46,76,30,Mostly Cloudy / Windy
+2018/1/3,5:00 PM,46,76,31,Mostly Cloudy / Windy
+2018/1/3,5:30 PM,46,76,30,Mostly Cloudy / Windy
+2018/1/3,6:00 PM,46,76,30,Mostly Cloudy / Windy
+2018/1/3,6:30 PM,46,76,29,Mostly Cloudy / Windy
+2018/1/3,7:00 PM,45,81,26,Mostly Cloudy / Windy
+2018/1/3,7:30 PM,45,81,30,Mostly Cloudy / Windy
+2018/1/3,8:00 PM,45,81,28,Mostly Cloudy / Windy
+2018/1/3,8:30 PM,45,81,25,Mostly Cloudy / Windy
+2018/1/3,9:00 PM,45,81,25,Partly Cloudy / Windy
+2018/1/3,9:30 PM,45,81,26,Partly Cloudy / Windy
+2018/1/3,10:00 PM,45,76,22,Partly Cloudy / Windy
+2018/1/3,10:30 PM,45,76,23,Partly Cloudy / Windy
+2018/1/3,11:00 PM,43,81,23,Partly Cloudy / Windy
+2018/1/3,11:30 PM,43,81,18,Partly Cloudy
+2018/1/4,12:00 AM,39,87,10,Mostly Cloudy
+2018/1/4,12:30 AM,39,87,8,Mostly Cloudy
+2018/1/4,1:00 AM,43,87,15,Mostly Cloudy
+2018/1/4,1:30 AM,43,87,14,Mostly Cloudy
+2018/1/4,2:00 AM,43,87,13,Mostly Cloudy
+2018/1/4,2:30 AM,43,81,10,Mostly Cloudy
+2018/1/4,3:00 AM,43,81,16,Light Rain
+2018/1/4,3:30 AM,41,87,10,Rain
+2018/1/4,4:00 AM,39,93,6,Rain
+2018/1/4,4:30 AM,39,93,2,Rain
+2018/1/4,5:00 AM,39,93,12,Rain
+2018/1/4,5:30 AM,39,93,14,Rain
+2018/1/4,6:00 AM,39,93,14,Rain
+2018/1/4,6:30 AM,39,100,18,Rain
+2018/1/4,7:00 AM,41,93,22,Rain / Windy
+2018/1/4,7:30 AM,41,93,23,Rain / Windy
+2018/1/4,8:00 AM,41,100,18,Mostly Cloudy
+2018/1/4,8:30 AM,43,93,13,Mostly Cloudy
+2018/1/4,9:00 AM,43,100,7,Light Rain
+2018/1/4,9:30 AM,48,87,12,Mostly Cloudy
+2018/1/4,10:00 AM,48,87,15,Light Rain
+2018/1/4,10:30 AM,48,87,17,Mostly Cloudy
+2018/1/4,11:00 AM,48,87,16,Mostly Cloudy
+2018/1/4,11:30 AM,46,93,24,Light Rain / Windy
+2018/1/4,12:00 PM,41,87,39,Mostly Cloudy / Windy
+2018/1/4,12:30 PM,41,81,32,Partly Cloudy / Windy
+2018/1/4,1:00 PM,39,87,35,Partly Cloudy / Windy
+2018/1/4,1:30 PM,41,87,25,Light Drizzle / Windy
+2018/1/4,2:00 PM,43,81,28,Mostly Cloudy / Windy
+2018/1/4,2:30 PM,43,81,30,Partly Cloudy / Windy
+2018/1/4,3:00 PM,45,76,28,Mostly Cloudy / Windy
+2018/1/4,3:30 PM,43,81,25,Mostly Cloudy / Windy
+2018/1/4,4:00 PM,43,81,23,Partly Cloudy / Windy
+2018/1/4,4:30 PM,43,76,21,Fair / Windy
+2018/1/4,5:00 PM,43,76,22,Fair / Windy
+2018/1/4,5:30 PM,43,76,16,Partly Cloudy
+2018/1/4,6:00 PM,41,81,16,Partly Cloudy
+2018/1/4,6:30 PM,41,87,16,Mostly Cloudy
+2018/1/4,7:00 PM,41,87,21,Mostly Cloudy / Windy
+2018/1/4,7:30 PM,41,87,21,Mostly Cloudy / Windy
+2018/1/4,8:00 PM,41,81,16,Partly Cloudy
+2018/1/4,8:30 PM,41,81,8,Mostly Cloudy
+2018/1/4,9:00 PM,39,87,12,Mostly Cloudy
+2018/1/4,9:30 PM,41,81,10,Mostly Cloudy
+2018/1/4,10:00 PM,41,81,12,Partly Cloudy
+2018/1/4,10:30 PM,39,87,9,Partly Cloudy
+2018/1/4,11:00 PM,41,81,12,Mostly Cloudy
+2018/1/4,11:30 PM,41,81,9,Mostly Cloudy
+2018/1/5,12:00 AM,32,100,1,Mostly Cloudy
+2018/1/5,12:30 AM,32,100,6,Mostly Cloudy
+2018/1/5,1:00 AM,39,87,8,Mostly Cloudy
+2018/1/5,1:30 AM,39,87,5,Mostly Cloudy
+2018/1/5,2:00 AM,39,87,5,Mostly Cloudy
+2018/1/5,2:30 AM,39,87,5,Mostly Cloudy
+2018/1/5,3:00 AM,39,87,7,Mostly Cloudy
+2018/1/5,3:30 AM,39,87,8,Mostly Cloudy
+2018/1/5,4:00 AM,39,87,10,Mostly Cloudy
+2018/1/5,4:30 AM,37,93,7,Mostly Cloudy
+2018/1/5,5:00 AM,37,87,8,Mostly Cloudy
+2018/1/5,5:30 AM,36,93,7,Mostly Cloudy
+2018/1/5,6:00 AM,36,93,7,Mostly Cloudy
+2018/1/5,6:30 AM,36,93,8,Mostly Cloudy
+2018/1/5,7:00 AM,36,93,8,Partly Cloudy
+2018/1/5,7:30 AM,36,93,9,Fair
+2018/1/5,8:00 AM,36,93,9,Partly Cloudy
+2018/1/5,8:30 AM,36,93,9,Partly Cloudy
+2018/1/5,9:00 AM,36,93,8,Mostly Cloudy
+2018/1/5,9:30 AM,36,93,10,Mostly Cloudy
+2018/1/5,10:00 AM,36,93,10,Mostly Cloudy
+2018/1/5,10:30 AM,36,93,9,Mostly Cloudy
+2018/1/5,11:00 AM,37,87,10,Mostly Cloudy
+2018/1/5,11:30 AM,37,87,10,Mostly Cloudy
+2018/1/5,12:00 PM,37,87,10,Mostly Cloudy
+2018/1/5,12:30 PM,37,87,9,Mostly Cloudy
+2018/1/5,1:00 PM,39,87,8,Mostly Cloudy
+2018/1/5,1:30 PM,41,81,10,Mostly Cloudy
+2018/1/5,2:00 PM,43,76,9,Mostly Cloudy
+2018/1/5,2:30 PM,45,71,9,Mostly Cloudy
+2018/1/5,3:00 PM,43,76,13,Mostly Cloudy
+2018/1/5,3:30 PM,43,76,12,Mostly Cloudy
+2018/1/5,4:00 PM,41,81,8,Mostly Cloudy
+2018/1/5,4:30 PM,41,81,6,Partly Cloudy
+2018/1/5,5:00 PM,41,81,8,Partly Cloudy
+2018/1/5,5:30 PM,41,81,6,Partly Cloudy
+2018/1/5,6:00 PM,39,81,8,Partly Cloudy
+2018/1/5,6:30 PM,39,81,8,Partly Cloudy
+2018/1/5,7:00 PM,39,87,7,Mostly Cloudy
+2018/1/5,7:30 PM,39,81,6,Mostly Cloudy
+2018/1/5,8:00 PM,36,87,7,Mostly Cloudy
+2018/1/5,8:30 PM,37,87,8,Mostly Cloudy
+2018/1/5,9:30 PM,34,93,8,Mostly Cloudy
+2018/1/5,10:00 PM,34,93,6,Partly Cloudy
+2018/1/5,10:30 PM,32,93,5,Fair
+2018/1/5,11:00 PM,32,93,5,Mostly Cloudy
+2018/1/5,11:30 PM,30,100,1,Mostly Cloudy
+2018/1/6,12:00 AM,37,81,12,Fair
+2018/1/6,12:30 AM,37,81,12,Fair
+2018/1/6,1:00 AM,32,93,6,Partly Cloudy
+2018/1/6,1:30 AM,32,93,5,Mostly Cloudy
+2018/1/6,2:00 AM,32,100,6,Mostly Cloudy
+2018/1/6,2:30 AM,30,100,8,Mostly Cloudy
+2018/1/6,3:00 AM,34,93,8,Mostly Cloudy
+2018/1/6,3:30 AM,37,93,10,Mostly Cloudy
+2018/1/6,4:00 AM,37,93,10,Mostly Cloudy
+2018/1/6,4:30 AM,39,87,13,Partly Cloudy
+2018/1/6,5:00 AM,39,87,15,Partly Cloudy
+2018/1/6,5:30 AM,41,81,14,Mostly Cloudy
+2018/1/6,6:00 AM,41,81,16,Mostly Cloudy
+2018/1/6,6:30 AM,43,76,16,Mostly Cloudy
+2018/1/6,7:00 AM,41,81,18,Mostly Cloudy
+2018/1/6,7:30 AM,41,76,17,Mostly Cloudy
+2018/1/6,8:00 AM,41,81,18,Mostly Cloudy
+2018/1/6,8:30 AM,41,81,20,Mostly Cloudy
+2018/1/6,9:00 AM,41,76,20,Mostly Cloudy
+2018/1/6,9:30 AM,41,76,20,Mostly Cloudy
+2018/1/6,10:00 AM,41,76,22,Mostly Cloudy / Windy
+2018/1/6,10:30 AM,41,76,18,Mostly Cloudy
+2018/1/6,11:00 AM,43,76,21,Mostly Cloudy / Windy
+2018/1/6,11:30 AM,43,76,18,Mostly Cloudy
+2018/1/6,12:00 PM,43,76,21,Mostly Cloudy / Windy
+2018/1/6,12:30 PM,43,70,23,Mostly Cloudy / Windy
+2018/1/6,1:00 PM,43,70,22,Mostly Cloudy / Windy
+2018/1/6,1:30 PM,43,76,21,Mostly Cloudy / Windy
+2018/1/6,2:00 PM,43,70,24,Partly Cloudy / Windy
+2018/1/6,2:30 PM,43,66,21,Showers in the Vicinity
+2018/1/6,3:00 PM,41,70,21,Partly Cloudy / Windy
+2018/1/6,3:30 PM,41,70,24,Mostly Cloudy / Windy
+2018/1/6,4:00 PM,41,70,24,Mostly Cloudy / Windy
+2018/1/6,4:30 PM,41,70,17,Mostly Cloudy
+2018/1/6,5:00 PM,41,65,20,Mostly Cloudy
+2018/1/6,5:30 PM,39,70,17,Mostly Cloudy
+2018/1/6,6:00 PM,39,70,20,Mostly Cloudy
+2018/1/6,6:30 PM,41,70,16,Mostly Cloudy
+2018/1/6,7:00 PM,39,75,18,Mostly Cloudy
+2018/1/6,7:30 PM,41,70,15,Light Rain Shower
+2018/1/6,8:00 PM,39,75,14,Light Rain Shower
+2018/1/6,8:30 PM,39,75,16,Mostly Cloudy
+2018/1/6,9:00 PM,39,70,14,Mostly Cloudy
+2018/1/6,9:30 PM,39,75,13,Mostly Cloudy
+2018/1/6,10:00 PM,39,75,16,Mostly Cloudy
+2018/1/6,10:30 PM,37,81,10,Partly Cloudy
+2018/1/6,11:00 PM,37,81,10,Fair
+2018/1/6,11:30 PM,37,81,12,Fair
+2018/1/7,12:00 AM,36,65,12,Partly Cloudy
+2018/1/7,12:30 AM,32,75,9,Partly Cloudy
+2018/1/7,1:00 AM,36,87,12,Partly Cloudy
+2018/1/7,1:30 AM,37,81,9,Partly Cloudy
+2018/1/7,2:00 AM,37,87,12,Partly Cloudy
+2018/1/7,2:30 AM,37,87,9,Partly Cloudy
+2018/1/7,3:00 AM,37,87,9,Partly Cloudy
+2018/1/7,3:30 AM,37,87,10,Partly Cloudy
+2018/1/7,4:00 AM,36,93,8,Fair
+2018/1/7,4:30 AM,36,87,7,Fair
+2018/1/7,5:00 AM,34,93,8,Partly Cloudy
+2018/1/7,5:30 AM,34,93,8,Fair
+2018/1/7,6:00 AM,36,87,8,Partly Cloudy
+2018/1/7,6:30 AM,36,87,8,Partly Cloudy
+2018/1/7,7:00 AM,34,87,9,Partly Cloudy
+2018/1/7,7:30 AM,36,81,12,Partly Cloudy
+2018/1/7,8:00 AM,39,75,12,Partly Cloudy
+2018/1/7,8:30 AM,39,75,10,Partly Cloudy
+2018/1/7,9:00 AM,41,65,13,Mostly Cloudy
+2018/1/7,9:30 AM,39,70,13,Mostly Cloudy
+2018/1/7,10:00 AM,41,65,12,Mostly Cloudy
+2018/1/7,10:30 AM,41,65,12,Mostly Cloudy
+2018/1/7,11:00 AM,41,65,12,Mostly Cloudy
+2018/1/7,11:30 AM,41,70,13,Mostly Cloudy
+2018/1/7,12:00 PM,41,70,14,Mostly Cloudy
+2018/1/7,12:30 PM,43,61,14,Mostly Cloudy
+2018/1/7,1:00 PM,43,61,16,Mostly Cloudy
+2018/1/7,1:30 PM,43,66,14,Mostly Cloudy
+2018/1/7,2:00 PM,41,65,13,Mostly Cloudy
+2018/1/7,2:30 PM,43,61,15,Mostly Cloudy
+2018/1/7,3:00 PM,41,65,17,Mostly Cloudy
+2018/1/7,3:30 PM,41,65,14,Partly Cloudy
+2018/1/7,4:00 PM,41,65,14,Mostly Cloudy
+2018/1/7,4:30 PM,39,75,14,Mostly Cloudy
+2018/1/7,5:00 PM,39,70,12,Mostly Cloudy
+2018/1/7,5:30 PM,37,65,14,Mostly Cloudy
+2018/1/7,6:00 PM,37,70,12,Mostly Cloudy
+2018/1/7,6:30 PM,36,75,15,Mostly Cloudy
+2018/1/7,7:00 PM,36,75,13,Mostly Cloudy
+2018/1/7,7:30 PM,34,81,10,Mostly Cloudy
+2018/1/7,8:00 PM,34,81,14,Mostly Cloudy
+2018/1/7,8:30 PM,36,70,10,Mostly Cloudy
+2018/1/7,9:00 PM,36,70,12,Mostly Cloudy
+2018/1/7,9:30 PM,36,65,12,Mostly Cloudy
+2018/1/7,10:00 PM,36,65,12,Mostly Cloudy
+2018/1/7,10:30 PM,34,70,12,Partly Cloudy
+2018/1/7,11:00 PM,34,75,12,Partly Cloudy
+2018/1/7,11:30 PM,36,65,12,Partly Cloudy
+2018/1/8,12:00 AM,39,87,20,Mostly Cloudy
+2018/1/8,12:30 AM,39,93,20,Mostly Cloudy
+2018/1/8,1:00 AM,32,75,12,Partly Cloudy
+2018/1/8,1:30 AM,32,75,10,Partly Cloudy
+2018/1/8,2:00 AM,30,80,12,Partly Cloudy
+2018/1/8,2:30 AM,28,86,10,Partly Cloudy
+2018/1/8,3:00 AM,28,80,12,Partly Cloudy
+2018/1/8,3:30 AM,28,80,12,Partly Cloudy
+2018/1/8,4:00 AM,28,86,12,Partly Cloudy
+2018/1/8,4:30 AM,28,80,10,Partly Cloudy
+2018/1/8,5:00 AM,32,75,12,Partly Cloudy
+2018/1/8,5:30 AM,30,75,10,Partly Cloudy
+2018/1/8,6:00 AM,28,80,8,Partly Cloudy
+2018/1/8,6:30 AM,28,80,7,Partly Cloudy
+2018/1/8,7:00 AM,28,80,8,Partly Cloudy
+2018/1/8,7:30 AM,28,80,8,Partly Cloudy
+2018/1/8,8:00 AM,28,80,7,Partly Cloudy
+2018/1/8,8:30 AM,30,75,7,Partly Cloudy
+2018/1/8,9:00 AM,28,80,8,Fair
+2018/1/8,9:30 AM,30,75,7,Fair
+2018/1/8,10:00 AM,30,75,8,Fair
+2018/1/8,10:30 AM,30,80,9,Fair
+2018/1/8,11:00 AM,34,75,10,Partly Cloudy
+2018/1/8,11:30 AM,37,70,12,Partly Cloudy
+2018/1/8,12:00 PM,41,57,13,Fair
+2018/1/8,12:30 PM,41,57,14,Fair
+2018/1/8,1:00 PM,41,61,15,Fair
+2018/1/8,1:30 PM,41,61,15,Fair
+2018/1/8,2:00 PM,41,65,15,Fair
+2018/1/8,2:30 PM,41,70,14,Partly Cloudy
+2018/1/8,3:00 PM,41,76,15,Partly Cloudy
+2018/1/8,3:30 PM,41,70,17,Partly Cloudy
+2018/1/8,4:00 PM,39,75,16,Mostly Cloudy
+2018/1/8,4:30 PM,39,75,12,Mostly Cloudy
+2018/1/8,5:00 PM,39,75,13,Mostly Cloudy
+2018/1/8,5:30 PM,39,75,12,Mostly Cloudy
+2018/1/8,6:00 PM,39,81,15,Mostly Cloudy
+2018/1/8,6:30 PM,39,81,13,Mostly Cloudy
+2018/1/8,7:00 PM,39,81,18,Mostly Cloudy
+2018/1/8,7:30 PM,39,81,17,Mostly Cloudy
+2018/1/8,8:00 PM,39,87,15,Mostly Cloudy
+2018/1/8,8:30 PM,39,81,14,Mostly Cloudy
+2018/1/8,9:00 PM,39,87,17,Mostly Cloudy
+2018/1/8,9:30 PM,39,87,18,Mostly Cloudy
+2018/1/8,10:00 PM,39,87,16,Mostly Cloudy
+2018/1/8,10:30 PM,39,87,18,Mostly Cloudy
+2018/1/8,11:00 PM,39,87,22,Mostly Cloudy / Windy
+2018/1/8,11:30 PM,39,87,23,Mostly Cloudy / Windy
+2018/1/9,12:00 AM,43,93,8,Mostly Cloudy
+2018/1/9,12:30 AM,43,93,10,Mostly Cloudy
+2018/1/9,1:00 AM,39,93,14,Mostly Cloudy
+2018/1/9,1:30 AM,39,93,15,Mostly Cloudy
+2018/1/9,2:00 AM,39,87,17,Mostly Cloudy
+2018/1/9,2:30 AM,39,93,17,Mostly Cloudy
+2018/1/9,3:00 AM,39,87,15,Mostly Cloudy
+2018/1/9,3:30 AM,39,87,21,Mostly Cloudy / Windy
+2018/1/9,4:00 AM,39,93,14,Mostly Cloudy
+2018/1/9,4:30 AM,39,93,16,Mostly Cloudy
+2018/1/9,5:00 AM,39,93,16,Light Drizzle
+2018/1/9,5:30 AM,39,100,16,Light Drizzle
+2018/1/9,6:00 AM,39,100,16,Light Drizzle
+2018/1/9,6:30 AM,41,93,12,Light Drizzle
+2018/1/9,7:00 AM,41,93,23,Light Drizzle / Windy
+2018/1/9,7:30 AM,41,93,17,Light Drizzle
+2018/1/9,8:00 AM,41,93,18,Light Drizzle
+2018/1/9,8:30 AM,41,93,28,Light Drizzle / Windy
+2018/1/9,9:00 AM,41,93,26,Light Drizzle / Windy
+2018/1/9,9:30 AM,41,93,23,Light Drizzle / Windy
+2018/1/9,10:00 AM,41,93,21,Light Drizzle / Windy
+2018/1/9,10:30 AM,41,93,20,Light Drizzle
+2018/1/9,11:00 AM,41,93,22,Light Drizzle / Windy
+2018/1/9,11:30 AM,41,93,21,Light Drizzle / Windy
+2018/1/9,12:00 PM,41,100,24,Light Drizzle / Windy
+2018/1/9,12:30 PM,41,100,22,Light Drizzle / Windy
+2018/1/9,1:00 PM,43,93,23,Light Drizzle / Windy
+2018/1/9,1:30 PM,43,93,21,Light Drizzle / Windy
+2018/1/9,2:00 PM,43,93,18,Light Drizzle
+2018/1/9,2:30 PM,43,93,17,Light Drizzle
+2018/1/9,3:00 PM,43,100,17,Light Drizzle
+2018/1/9,3:30 PM,43,100,21,Light Drizzle / Windy
+2018/1/9,4:00 PM,45,93,21,Light Drizzle / Windy
+2018/1/9,4:30 PM,45,93,24,Light Drizzle / Windy
+2018/1/9,5:00 PM,45,93,28,Light Drizzle / Windy
+2018/1/9,5:30 PM,45,93,28,Light Drizzle / Windy
+2018/1/9,6:00 PM,45,93,25,Light Rain / Windy
+2018/1/9,6:30 PM,45,100,24,Light Rain / Windy
+2018/1/9,7:00 PM,46,93,25,Light Rain / Windy
+2018/1/9,7:30 PM,46,93,24,Light Rain / Windy
+2018/1/9,8:00 PM,46,93,18,Light Rain
+2018/1/9,8:30 PM,46,93,12,Light Drizzle
+2018/1/9,9:00 PM,46,87,7,Mostly Cloudy
+2018/1/9,9:30 PM,45,93,15,Mostly Cloudy
+2018/1/9,10:00 PM,45,93,7,Mostly Cloudy
+2018/1/9,10:30 PM,45,87,7,Mostly Cloudy
+2018/1/9,11:00 PM,43,93,9,Mostly Cloudy
+2018/1/9,11:30 PM,43,93,7,Mostly Cloudy
+2018/1/10,12:00 AM,41,100,12,Fog
+2018/1/10,12:30 AM,39,100,10,Mist
+2018/1/10,1:00 AM,43,87,9,Mostly Cloudy
+2018/1/10,1:30 AM,41,93,9,Mostly Cloudy
+2018/1/10,2:00 AM,41,93,9,Partly Cloudy
+2018/1/10,2:30 AM,41,93,8,Partly Cloudy
+2018/1/10,3:00 AM,41,87,9,Partly Cloudy
+2018/1/10,3:30 AM,39,93,8,Partly Cloudy
+2018/1/10,4:00 AM,39,93,6,Partly Cloudy
+2018/1/10,4:30 AM,41,93,7,Partly Cloudy
+2018/1/10,5:00 AM,41,93,9,Mostly Cloudy
+2018/1/10,5:30 AM,41,93,8,Light Rain
+2018/1/10,6:00 AM,41,93,7,Mostly Cloudy
+2018/1/10,6:30 AM,43,87,9,Light Rain
+2018/1/10,7:00 AM,41,93,9,Mostly Cloudy
+2018/1/10,7:30 AM,39,93,8,Partly Cloudy
+2018/1/10,8:00 AM,39,93,8,Fair
+2018/1/10,8:30 AM,39,87,6,Fair
+2018/1/10,9:00 AM,37,87,1,Fair
+2018/1/10,9:30 AM,34,93,0,Fair
+2018/1/10,10:00 AM,32,100,1,Shallow Fog
+2018/1/10,10:30 AM,34,93,3,Fog
+2018/1/10,11:00 AM,34,100,3,Fair
+2018/1/10,11:30 AM,36,100,3,Fair
+2018/1/10,12:00 PM,41,93,3,Fair
+2018/1/10,12:30 PM,43,87,6,Fair
+2018/1/10,1:00 PM,45,87,6,Fair
+2018/1/10,1:30 PM,45,81,6,Fair
+2018/1/10,2:00 PM,43,87,7,Partly Cloudy
+2018/1/10,2:30 PM,43,93,6,Mostly Cloudy
+2018/1/10,3:00 PM,43,93,8,Mostly Cloudy
+2018/1/10,3:30 PM,43,93,10,Patches of Fog
+2018/1/10,4:00 PM,41,93,8,Fog
+2018/1/10,4:30 PM,41,93,6,Fog
+2018/1/10,5:00 PM,39,100,7,Fog
+2018/1/10,5:30 PM,39,100,9,Fog
+2018/1/10,6:00 PM,39,100,7,Fog
+2018/1/10,6:30 PM,41,100,9,Fog
+2018/1/10,7:00 PM,41,93,9,Fog
+2018/1/10,7:30 PM,39,100,8,Fog
+2018/1/10,8:00 PM,39,100,8,Fog
+2018/1/10,8:30 PM,39,100,5,Fog
+2018/1/10,9:00 PM,39,100,6,Fog
+2018/1/10,9:30 PM,41,100,6,Mist
+2018/1/10,10:00 PM,41,100,8,Mostly Cloudy
+2018/1/10,10:30 PM,41,100,12,Mist
+2018/1/10,11:00 PM,41,100,12,Fog
+2018/1/10,11:30 PM,41,100,10,Fog
+2018/1/11,12:00 AM,37,93,9,Partly Cloudy
+2018/1/11,12:30 AM,37,93,8,Fair
+2018/1/11,1:00 AM,39,100,9,Mist
+2018/1/11,1:30 AM,39,100,9,Mist
+2018/1/11,2:00 AM,39,100,8,Mist
+2018/1/11,2:30 AM,39,100,7,Mist
+2018/1/11,3:00 AM,37,100,6,Mist
+2018/1/11,3:30 AM,36,93,6,Mist
+2018/1/11,4:00 AM,34,100,6,Mist
+2018/1/11,4:30 AM,34,0,6,Mist
+2018/1/11,5:00 AM,36,100,7,Mostly Cloudy
+2018/1/11,5:30 AM,36,100,6,Mostly Cloudy
+2018/1/11,6:00 AM,36,100,7,Mostly Cloudy
+2018/1/11,6:30 AM,36,100,7,Mostly Cloudy
+2018/1/11,7:00 AM,34,100,6,Mostly Cloudy
+2018/1/11,7:30 AM,34,100,7,Mostly Cloudy
+2018/1/11,8:00 AM,34,100,7,Mostly Cloudy
+2018/1/11,8:30 AM,34,100,6,Mostly Cloudy
+2018/1/11,9:00 AM,34,100,5,Mostly Cloudy
+2018/1/11,9:30 AM,32,100,6,Partly Cloudy
+2018/1/11,10:00 AM,32,100,6,Partly Cloudy
+2018/1/11,10:30 AM,32,100,7,Partly Cloudy
+2018/1/11,11:00 AM,34,100,5,Mostly Cloudy
+2018/1/11,11:30 AM,34,100,6,Mostly Cloudy
+2018/1/11,12:00 PM,36,100,8,Mostly Cloudy
+2018/1/11,12:30 PM,37,100,6,Mostly Cloudy
+2018/1/11,1:00 PM,39,93,7,Mostly Cloudy
+2018/1/11,1:30 PM,39,93,8,Partly Cloudy
+2018/1/11,2:00 PM,39,93,8,Mostly Cloudy
+2018/1/11,2:30 PM,39,93,7,Mostly Cloudy
+2018/1/11,3:00 PM,39,93,6,Mostly Cloudy
+2018/1/11,3:30 PM,41,87,5,Partly Cloudy
+2018/1/11,4:00 PM,39,93,5,Fair
+2018/1/11,4:30 PM,37,93,3,Fair
+2018/1/11,5:00 PM,37,93,3,Fog
+2018/1/11,5:30 PM,36,100,2,Fog
+2018/1/11,6:00 PM,36,100,6,Fog
+2018/1/11,6:30 PM,34,100,5,Fog
+2018/1/11,7:00 PM,32,100,2,Fog
+2018/1/11,7:30 PM,30,100,1,Mist
+2018/1/11,8:00 PM,30,93,2,Fair
+2018/1/11,8:30 PM,28,100,3,Mist
+2018/1/11,9:00 PM,28,100,1,Mist
+2018/1/11,9:30 PM,28,93,7,Fair
+2018/1/11,10:00 PM,27,100,5,Fair
+2018/1/11,10:30 PM,28,93,5,Shallow Fog
+2018/1/11,11:00 PM,34,100,8,Mostly Cloudy
+2018/1/11,11:30 PM,37,93,6,Mostly Cloudy
+2018/1/12,12:00 AM,45,93,20,Mostly Cloudy
+2018/1/12,12:30 AM,46,87,22,Mostly Cloudy / Windy
+2018/1/12,1:00 AM,37,93,9,Mostly Cloudy
+2018/1/12,1:30 AM,37,93,8,Mostly Cloudy
+2018/1/12,2:00 AM,39,93,8,Fair
+2018/1/12,2:30 AM,39,93,8,Fair
+2018/1/12,3:00 AM,39,93,12,Fair
+2018/1/12,3:30 AM,41,87,14,Fair
+2018/1/12,4:00 AM,41,87,16,Partly Cloudy
+2018/1/12,4:30 AM,41,87,14,Partly Cloudy
+2018/1/12,5:00 AM,41,87,17,Mostly Cloudy
+2018/1/12,5:30 AM,41,87,17,Partly Cloudy
+2018/1/12,6:00 AM,41,87,14,Partly Cloudy
+2018/1/12,6:30 AM,41,81,14,Mostly Cloudy
+2018/1/12,7:00 AM,41,81,15,Partly Cloudy
+2018/1/12,7:30 AM,41,81,14,Partly Cloudy
+2018/1/12,8:00 AM,41,81,17,Partly Cloudy
+2018/1/12,8:30 AM,41,81,18,Partly Cloudy
+2018/1/12,9:00 AM,41,81,16,Mostly Cloudy
+2018/1/12,9:30 AM,41,81,10,Mostly Cloudy
+2018/1/12,10:00 AM,43,76,16,Mostly Cloudy
+2018/1/12,10:30 AM,43,81,17,Mostly Cloudy
+2018/1/12,11:00 AM,45,76,14,Mostly Cloudy
+2018/1/12,11:30 AM,45,81,14,Mostly Cloudy
+2018/1/12,12:00 PM,46,76,18,Mostly Cloudy
+2018/1/12,12:30 PM,46,71,23,Mostly Cloudy / Windy
+2018/1/12,1:00 PM,46,71,21,Mostly Cloudy / Windy
+2018/1/12,1:30 PM,46,76,20,Mostly Cloudy
+2018/1/12,2:00 PM,46,71,18,Mostly Cloudy
+2018/1/12,2:30 PM,46,76,22,Mostly Cloudy / Windy
+2018/1/12,3:00 PM,46,76,20,Mostly Cloudy
+2018/1/12,3:30 PM,46,71,18,Mostly Cloudy
+2018/1/12,4:00 PM,46,81,18,Mostly Cloudy
+2018/1/12,4:30 PM,46,81,20,Mostly Cloudy
+2018/1/12,5:00 PM,46,81,21,Mostly Cloudy / Windy
+2018/1/12,5:30 PM,46,81,17,Mostly Cloudy
+2018/1/12,6:00 PM,46,81,14,Mostly Cloudy
+2018/1/12,6:30 PM,46,76,18,Mostly Cloudy
+2018/1/12,7:00 PM,46,81,22,Mostly Cloudy / Windy
+2018/1/12,7:30 PM,46,81,22,Mostly Cloudy / Windy
+2018/1/12,8:00 PM,46,87,25,Mostly Cloudy / Windy
+2018/1/12,8:30 PM,46,87,26,Mostly Cloudy / Windy
+2018/1/12,9:00 PM,46,87,25,Mostly Cloudy / Windy
+2018/1/12,9:30 PM,46,87,26,Mostly Cloudy / Windy
+2018/1/12,10:00 PM,46,87,23,Mostly Cloudy / Windy
+2018/1/12,10:30 PM,46,81,24,Mostly Cloudy / Windy
+2018/1/12,11:00 PM,46,81,28,Mostly Cloudy / Windy
+2018/1/12,11:30 PM,46,87,28,Mostly Cloudy / Windy
+2018/1/13,12:00 AM,45,100,8,Mostly Cloudy
+2018/1/13,12:30 AM,45,93,8,Mostly Cloudy
+2018/1/13,1:00 AM,46,81,26,Mostly Cloudy / Windy
+2018/1/13,1:30 AM,46,87,21,Light Drizzle / Windy
+2018/1/13,2:00 AM,45,93,22,Light Drizzle / Windy
+2018/1/13,2:30 AM,45,93,22,Light Drizzle / Windy
+2018/1/13,3:00 AM,45,93,23,Mostly Cloudy / Windy
+2018/1/13,3:30 AM,46,81,22,Mostly Cloudy / Windy
+2018/1/13,4:00 AM,46,81,22,Light Drizzle / Windy
+2018/1/13,4:30 AM,45,87,22,Mostly Cloudy / Windy
+2018/1/13,5:00 AM,45,87,18,Mostly Cloudy
+2018/1/13,5:30 AM,45,87,18,Light Drizzle
+2018/1/13,6:00 AM,45,87,24,Mostly Cloudy / Windy
+2018/1/13,6:30 AM,45,87,21,Mostly Cloudy / Windy
+2018/1/13,7:00 AM,45,87,29,Light Drizzle / Windy
+2018/1/13,7:30 AM,45,87,24,Light Drizzle / Windy
+2018/1/13,8:00 AM,45,93,21,Light Drizzle / Windy
+2018/1/13,8:30 AM,45,87,22,Light Drizzle / Windy
+2018/1/13,9:00 AM,45,93,24,Light Drizzle / Windy
+2018/1/13,9:30 AM,45,93,23,Light Drizzle / Windy
+2018/1/13,10:00 AM,45,93,23,Light Drizzle / Windy
+2018/1/13,10:30 AM,45,93,23,Light Drizzle / Windy
+2018/1/13,11:00 AM,45,93,26,Light Drizzle / Windy
+2018/1/13,11:30 AM,45,93,24,Light Drizzle / Windy
+2018/1/13,12:00 PM,45,93,23,Light Drizzle / Windy
+2018/1/13,12:30 PM,45,93,18,Light Drizzle
+2018/1/13,1:00 PM,46,87,18,Light Drizzle
+2018/1/13,1:30 PM,45,93,15,Light Drizzle
+2018/1/13,2:00 PM,46,87,16,Light Drizzle
+2018/1/13,2:30 PM,46,87,16,Light Drizzle
+2018/1/13,3:00 PM,46,87,17,Light Drizzle
+2018/1/13,3:30 PM,45,93,18,Light Drizzle
+2018/1/13,4:00 PM,45,93,18,Light Drizzle
+2018/1/13,4:30 PM,46,87,18,Light Drizzle
+2018/1/13,5:00 PM,46,87,20,Light Drizzle
+2018/1/13,5:30 PM,45,100,20,Light Drizzle
+2018/1/13,6:00 PM,45,100,21,Light Drizzle / Windy
+2018/1/13,6:30 PM,45,100,17,Light Drizzle
+2018/1/13,7:00 PM,46,93,16,Light Drizzle
+2018/1/13,7:30 PM,45,100,12,Mostly Cloudy
+2018/1/13,8:00 PM,45,100,12,Mostly Cloudy
+2018/1/13,8:30 PM,45,100,10,Mostly Cloudy
+2018/1/13,9:00 PM,45,93,7,Mostly Cloudy
+2018/1/13,9:30 PM,45,100,9,Partly Cloudy
+2018/1/13,10:00 PM,45,93,8,Partly Cloudy
+2018/1/13,10:30 PM,45,93,8,Partly Cloudy
+2018/1/13,11:00 PM,45,93,9,Partly Cloudy
+2018/1/13,11:30 PM,45,93,8,Mostly Cloudy
+2018/1/14,12:00 AM,48,93,25,Light Drizzle / Windy
+2018/1/14,12:30 AM,48,93,22,Light Drizzle / Windy
+2018/1/14,1:00 AM,45,93,7,Mostly Cloudy
+2018/1/14,1:30 AM,43,100,5,Partly Cloudy
+2018/1/14,2:00 AM,43,93,6,Partly Cloudy
+2018/1/14,2:30 AM,41,93,8,Fair
+2018/1/14,3:00 AM,39,93,5,Fair
+2018/1/14,3:30 AM,36,100,5,Fair
+2018/1/14,4:00 AM,34,100,3,Fair
+2018/1/14,4:30 AM,36,100,7,Fair
+2018/1/14,5:00 AM,37,93,8,Fair
+2018/1/14,5:30 AM,37,93,8,Fair
+2018/1/14,6:00 AM,37,93,8,Fair
+2018/1/14,6:30 AM,37,93,7,Fair
+2018/1/14,7:00 AM,39,87,7,Fair
+2018/1/14,7:30 AM,39,87,7,Fair
+2018/1/14,8:00 AM,36,87,6,Fair
+2018/1/14,8:30 AM,34,87,7,Fair
+2018/1/14,9:00 AM,37,93,5,Fair
+2018/1/14,9:30 AM,32,93,6,Fair
+2018/1/14,10:00 AM,36,100,7,Fair
+2018/1/14,10:30 AM,37,93,7,Fair
+2018/1/14,11:00 AM,39,93,6,Fair
+2018/1/14,11:30 AM,41,87,5,Partly Cloudy
+2018/1/14,12:00 PM,43,87,5,Partly Cloudy
+2018/1/14,12:30 PM,45,81,6,Partly Cloudy
+2018/1/14,1:00 PM,46,76,8,Mostly Cloudy
+2018/1/14,1:30 PM,46,76,13,Mostly Cloudy
+2018/1/14,2:00 PM,46,76,16,Mostly Cloudy
+2018/1/14,2:30 PM,46,76,16,Mostly Cloudy
+2018/1/14,3:00 PM,46,71,15,Mostly Cloudy
+2018/1/14,3:30 PM,46,71,17,Mostly Cloudy
+2018/1/14,4:00 PM,46,71,18,Cloudy
+2018/1/14,4:30 PM,46,76,16,Mostly Cloudy
+2018/1/14,5:00 PM,46,81,20,Mostly Cloudy
+2018/1/14,5:30 PM,46,81,18,Mostly Cloudy
+2018/1/14,6:00 PM,46,81,17,Mostly Cloudy
+2018/1/14,6:30 PM,46,81,20,Light Rain
+2018/1/14,7:00 PM,45,87,20,Light Rain
+2018/1/14,7:30 PM,45,87,21,Light Rain / Windy
+2018/1/14,8:00 PM,45,87,22,Light Drizzle / Windy
+2018/1/14,8:30 PM,46,87,24,Light Drizzle / Windy
+2018/1/14,9:00 PM,46,87,24,Mostly Cloudy / Windy
+2018/1/14,9:30 PM,46,93,23,Light Drizzle / Windy
+2018/1/14,10:00 PM,46,93,24,Light Drizzle / Windy
+2018/1/14,10:30 PM,46,93,23,Light Drizzle / Windy
+2018/1/14,11:00 PM,48,87,21,Light Drizzle / Windy
+2018/1/14,11:30 PM,48,93,24,Light Drizzle / Windy
+2018/1/15,12:00 AM,37,87,24,Mostly Cloudy / Windy
+2018/1/15,12:30 AM,37,87,20,Mostly Cloudy
+2018/1/15,1:00 AM,48,93,25,Mostly Cloudy / Windy
+2018/1/15,1:30 AM,48,100,18,Light Drizzle
+2018/1/15,2:00 AM,48,100,21,Light Drizzle / Windy
+2018/1/15,2:30 AM,50,94,21,Mostly Cloudy / Windy
+2018/1/15,3:00 AM,50,94,22,Mostly Cloudy / Windy
+2018/1/15,3:30 AM,50,94,17,Light Drizzle
+2018/1/15,4:00 AM,48,100,18,Light Drizzle
+2018/1/15,4:30 AM,48,93,20,Light Drizzle
+2018/1/15,5:00 AM,48,93,18,Light Drizzle
+2018/1/15,5:30 AM,48,93,17,Mostly Cloudy
+2018/1/15,6:00 AM,48,93,16,Mostly Cloudy
+2018/1/15,6:30 AM,48,93,18,Light Drizzle
+2018/1/15,7:00 AM,48,93,16,Light Drizzle
+2018/1/15,7:30 AM,48,87,20,Light Drizzle
+2018/1/15,8:00 AM,48,93,18,Light Drizzle
+2018/1/15,8:30 AM,46,93,22,Light Drizzle / Windy
+2018/1/15,9:00 AM,46,93,20,Light Drizzle
+2018/1/15,9:30 AM,46,87,20,Mostly Cloudy
+2018/1/15,10:00 AM,45,93,15,Partly Cloudy
+2018/1/15,10:30 AM,45,93,20,Mostly Cloudy
+2018/1/15,11:00 AM,45,87,21,Partly Cloudy / Windy
+2018/1/15,11:30 AM,45,87,20,Partly Cloudy
+2018/1/15,12:00 PM,45,87,24,Partly Cloudy / Windy
+2018/1/15,12:30 PM,45,81,23,Mostly Cloudy / Windy
+2018/1/15,1:00 PM,45,81,21,Mostly Cloudy / Windy
+2018/1/15,1:30 PM,45,81,23,Mostly Cloudy / Windy
+2018/1/15,2:00 PM,45,76,24,Mostly Cloudy / Windy
+2018/1/15,2:30 PM,45,81,21,Light Rain Shower / Windy
+2018/1/15,3:00 PM,43,87,17,Light Rain Shower
+2018/1/15,3:30 PM,43,87,17,Light Rain Shower
+2018/1/15,4:00 PM,45,76,25,Showers in the Vicinity
+2018/1/15,4:30 PM,43,81,25,Showers in the Vicinity
+2018/1/15,5:00 PM,41,81,26,Showers in the Vicinity
+2018/1/15,5:30 PM,41,87,18,Showers in the Vicinity
+2018/1/15,6:00 PM,41,87,22,Showers in the Vicinity
+2018/1/15,6:30 PM,41,81,20,Showers in the Vicinity
+2018/1/15,7:00 PM,41,81,18,Mostly Cloudy
+2018/1/15,7:30 PM,41,87,20,Mostly Cloudy
+2018/1/15,8:00 PM,41,81,18,Mostly Cloudy
+2018/1/15,8:30 PM,41,81,22,Light Rain Shower / Windy
+2018/1/15,9:00 PM,41,81,18,Mostly Cloudy
+2018/1/15,9:30 PM,41,81,21,Mostly Cloudy / Windy
+2018/1/15,10:00 PM,39,93,21,Light Rain Shower / Windy
+2018/1/15,10:30 PM,39,87,22,Mostly Cloudy / Windy
+2018/1/15,11:00 PM,41,81,16,Mostly Cloudy
+2018/1/15,11:30 PM,39,87,24,Mostly Cloudy / Windy
+2018/1/16,12:00 AM,32,100,23,Light Snow Shower / Windy
+2018/1/16,12:30 AM,32,100,20,Light Snow Shower
+2018/1/16,1:00 AM,37,87,22,Mostly Cloudy / Windy
+2018/1/16,1:30 AM,37,87,22,Mostly Cloudy / Windy
+2018/1/16,2:00 AM,37,87,18,Mostly Cloudy
+2018/1/16,2:30 AM,37,81,24,Light Rain Shower / Windy
+2018/1/16,3:00 AM,36,87,18,Mostly Cloudy
+2018/1/16,3:30 AM,36,87,24,Mostly Cloudy / Windy
+2018/1/16,4:00 AM,37,81,22,Mostly Cloudy / Windy
+2018/1/16,4:30 AM,37,81,24,Mostly Cloudy / Windy
+2018/1/16,5:00 AM,37,87,20,Mostly Cloudy
+2018/1/16,5:30 AM,36,87,25,Mostly Cloudy / Windy
+2018/1/16,6:00 AM,36,87,24,Mostly Cloudy / Windy
+2018/1/16,6:42 AM,36,87,22,Mostly Cloudy / Windy
+2018/1/16,7:00 AM,36,87,25,Mostly Cloudy / Windy
+2018/1/16,7:30 AM,36,87,21,Mostly Cloudy / Windy
+2018/1/16,8:00 AM,36,87,25,Mostly Cloudy / Windy
+2018/1/16,8:30 AM,36,87,21,Mostly Cloudy / Windy
+2018/1/16,9:00 AM,36,87,22,Partly Cloudy / Windy
+2018/1/16,9:30 AM,36,87,22,Partly Cloudy / Windy
+2018/1/16,10:00 AM,36,87,22,Partly Cloudy / Windy
+2018/1/16,10:30 AM,36,87,20,Partly Cloudy
+2018/1/16,11:00 AM,36,87,18,Partly Cloudy
+2018/1/16,11:30 AM,37,81,17,Partly Cloudy
+2018/1/16,12:00 PM,37,87,22,Mostly Cloudy / Windy
+2018/1/16,12:30 PM,37,81,24,Mostly Cloudy / Windy
+2018/1/16,1:00 PM,36,93,21,Wintry Mix / Windy
+2018/1/16,1:30 PM,37,81,21,Mostly Cloudy / Windy
+2018/1/16,2:00 PM,36,93,20,Wintry Mix
+2018/1/16,2:30 PM,36,93,23,Wintry Mix / Windy
+2018/1/16,3:00 PM,34,93,21,Mostly Cloudy / Windy
+2018/1/16,3:30 PM,36,87,22,Mostly Cloudy / Windy
+2018/1/16,4:00 PM,36,87,20,Mostly Cloudy
+2018/1/16,4:30 PM,36,81,22,Mostly Cloudy / Windy
+2018/1/16,5:00 PM,36,81,25,Mostly Cloudy / Windy
+2018/1/16,5:30 PM,34,93,20,Light Snow Shower
+2018/1/16,6:00 PM,34,93,23,Light Snow Shower / Windy
+2018/1/16,6:30 PM,34,93,24,Light Snow Shower / Windy
+2018/1/16,7:00 PM,34,93,17,Light Snow Shower
+2018/1/16,7:30 PM,34,87,21,Mostly Cloudy / Windy
+2018/1/16,8:00 PM,32,93,20,Light Snow Shower
+2018/1/16,8:30 PM,34,87,22,Light Snow Shower / Windy
+2018/1/16,9:00 PM,34,87,18,Light Snow Shower
+2018/1/16,9:30 PM,34,87,24,Light Snow Shower / Windy
+2018/1/16,10:00 PM,32,93,21,Light Snow Shower / Windy
+2018/1/16,10:30 PM,32,93,18,Light Snow Shower
+2018/1/16,11:00 PM,32,93,24,Partly Cloudy / Windy
+2018/1/16,11:30 PM,32,93,30,Light Snow Shower / Windy
+2018/1/17,12:00 AM,50,82,31,Light Rain Shower / Windy
+2018/1/17,12:30 AM,48,82,35,Light Rain Shower / Windy
+2018/1/17,1:00 AM,32,100,22,Light Snow Shower / Windy
+2018/1/17,1:30 AM,32,93,23,Mostly Cloudy / Windy
+2018/1/17,2:00 AM,32,93,22,Partly Cloudy / Windy
+2018/1/17,2:30 AM,34,87,23,Mostly Cloudy / Windy
+2018/1/17,3:00 AM,34,93,24,Light Snow Shower / Windy
+2018/1/17,3:30 AM,34,93,25,Mostly Cloudy / Windy
+2018/1/17,4:00 AM,34,93,26,Light Snow Shower / Windy
+2018/1/17,4:30 AM,34,93,25,Mostly Cloudy / Windy
+2018/1/17,5:00 AM,34,93,24,Mostly Cloudy / Windy
+2018/1/17,5:30 AM,36,87,24,Mostly Cloudy / Windy
+2018/1/17,6:00 AM,36,87,25,Mostly Cloudy / Windy
+2018/1/17,6:30 AM,34,93,25,Partly Cloudy / Windy
+2018/1/17,7:00 AM,34,93,21,Wintry Mix / Windy
+2018/1/17,7:30 AM,34,93,23,Partly Cloudy / Windy
+2018/1/17,8:00 AM,36,87,17,Mostly Cloudy
+2018/1/17,8:30 AM,34,93,15,Partly Cloudy
+2018/1/17,9:00 AM,34,93,15,Partly Cloudy
+2018/1/17,9:30 AM,36,87,17,Mostly Cloudy
+2018/1/17,10:00 AM,36,81,18,Mostly Cloudy
+2018/1/17,10:30 AM,36,81,18,Mostly Cloudy
+2018/1/17,11:00 AM,36,87,20,Mostly Cloudy
+2018/1/17,11:30 AM,37,81,23,Mostly Cloudy / Windy
+2018/1/17,12:00 PM,37,81,22,Mostly Cloudy / Windy
+2018/1/17,12:30 PM,37,81,23,Partly Cloudy / Windy
+2018/1/17,1:00 PM,39,81,25,Mostly Cloudy / Windy
+2018/1/17,1:30 PM,39,81,21,Mostly Cloudy / Windy
+2018/1/17,2:00 PM,41,76,21,Mostly Cloudy / Windy
+2018/1/17,2:30 PM,41,76,20,Mostly Cloudy
+2018/1/17,3:00 PM,41,76,22,Mostly Cloudy / Windy
+2018/1/17,3:30 PM,41,76,22,Mostly Cloudy / Windy
+2018/1/17,4:00 PM,41,81,21,Mostly Cloudy / Windy
+2018/1/17,4:30 PM,41,81,21,Light Rain / Windy
+2018/1/17,5:00 PM,41,81,17,Light Rain
+2018/1/17,5:30 PM,41,76,17,Mostly Cloudy
+2018/1/17,6:00 PM,39,87,17,Mostly Cloudy
+2018/1/17,6:30 PM,39,87,16,Light Rain
+2018/1/17,7:00 PM,39,93,14,Light Rain
+2018/1/17,7:30 PM,39,87,15,Light Rain
+2018/1/17,8:00 PM,37,93,12,Light Rain
+2018/1/17,8:30 PM,37,93,12,Light Rain
+2018/1/17,9:00 PM,37,93,16,Light Rain
+2018/1/17,9:30 PM,39,93,10,Light Rain
+2018/1/17,10:00 PM,46,93,18,Light Rain
+2018/1/17,10:30 PM,46,93,24,Light Rain / Windy
+2018/1/17,11:00 PM,48,93,26,Light Rain / Windy
+2018/1/17,11:30 PM,50,87,35,Light Rain Shower / Windy
+2018/1/18,12:00 AM,34,93,16,Fair
+2018/1/18,12:30 AM,34,87,17,Fair
+2018/1/18,1:00 AM,48,82,37,Mostly Cloudy / Windy
+2018/1/18,1:30 AM,48,82,36,Light Rain Shower / Windy
+2018/1/18,2:00 AM,45,81,39,Mostly Cloudy / Windy
+2018/1/18,2:30 AM,39,81,39,Mostly Cloudy / Windy
+2018/1/18,3:00 AM,37,87,31,Mostly Cloudy / Windy
+2018/1/18,3:30 AM,37,87,25,Mostly Cloudy / Windy
+2018/1/18,4:00 AM,37,87,18,Mostly Cloudy
+2018/1/18,4:30 AM,39,87,20,Mostly Cloudy
+2018/1/18,5:00 AM,39,87,20,Light Rain Shower
+2018/1/18,5:30 AM,39,87,16,Mostly Cloudy
+2018/1/18,6:00 AM,39,87,15,Mostly Cloudy
+2018/1/18,6:30 AM,39,87,14,Mostly Cloudy
+2018/1/18,7:00 AM,39,87,18,Partly Cloudy
+2018/1/18,7:30 AM,37,93,17,Partly Cloudy
+2018/1/18,8:00 AM,37,93,16,Partly Cloudy
+2018/1/18,8:30 AM,39,87,15,Mostly Cloudy
+2018/1/18,9:00 AM,37,93,14,Mostly Cloudy
+2018/1/18,9:30 AM,37,93,16,Mostly Cloudy
+2018/1/18,10:00 AM,37,93,17,Partly Cloudy
+2018/1/18,10:30 AM,39,87,21,Partly Cloudy / Windy
+2018/1/18,11:00 AM,39,87,22,Partly Cloudy / Windy
+2018/1/18,11:30 AM,39,87,21,Partly Cloudy / Windy
+2018/1/18,12:00 PM,39,87,21,Partly Cloudy / Windy
+2018/1/18,12:30 PM,39,87,23,Partly Cloudy / Windy
+2018/1/18,1:00 PM,39,87,23,Partly Cloudy / Windy
+2018/1/18,1:30 PM,41,76,25,Partly Cloudy / Windy
+2018/1/18,2:00 PM,39,81,25,Partly Cloudy / Windy
+2018/1/18,2:30 PM,41,76,21,Mostly Cloudy / Windy
+2018/1/18,3:00 PM,41,76,21,Partly Cloudy / Windy
+2018/1/18,3:30 PM,41,76,17,Light Rain Shower
+2018/1/18,4:00 PM,41,76,22,Partly Cloudy / Windy
+2018/1/18,4:30 PM,39,75,17,Partly Cloudy
+2018/1/18,5:00 PM,39,75,20,Partly Cloudy
+2018/1/18,5:30 PM,39,75,22,Fair / Windy
+2018/1/18,6:00 PM,37,81,22,Fair / Windy
+2018/1/18,6:30 PM,37,81,22,Partly Cloudy / Windy
+2018/1/18,7:00 PM,37,81,22,Partly Cloudy / Windy
+2018/1/18,7:30 PM,36,87,24,Fair / Windy
+2018/1/18,8:00 PM,36,87,21,Fair / Windy
+2018/1/18,8:30 PM,36,87,25,Fair / Windy
+2018/1/18,9:00 PM,36,87,22,Fair / Windy
+2018/1/18,9:30 PM,36,87,22,Fair / Windy
+2018/1/18,10:00 PM,36,87,22,Partly Cloudy / Windy
+2018/1/18,10:30 PM,34,93,22,Partly Cloudy / Windy
+2018/1/18,11:00 PM,34,93,20,Partly Cloudy
+2018/1/18,11:30 PM,34,93,18,Partly Cloudy
+2018/1/19,12:00 AM,36,87,13,Fair
+2018/1/19,12:30 AM,36,87,10,Fair
+2018/1/19,1:00 AM,34,87,16,Fair
+2018/1/19,1:30 AM,34,87,16,Fair
+2018/1/19,2:00 AM,34,87,20,Fair
+2018/1/19,2:30 AM,34,93,17,Fair
+2018/1/19,3:00 AM,34,93,22,Fair / Windy
+2018/1/19,3:30 AM,34,93,20,Fair
+2018/1/19,4:00 AM,34,93,20,Fair
+2018/1/19,4:30 AM,34,93,20,Fair
+2018/1/19,5:00 AM,34,87,20,Fair
+2018/1/19,5:30 AM,34,87,20,Fair
+2018/1/19,6:00 AM,34,87,18,Fair
+2018/1/19,6:30 AM,34,87,17,Fair
+2018/1/19,7:00 AM,34,87,18,Partly Cloudy
+2018/1/19,7:30 AM,34,87,18,Mostly Cloudy
+2018/1/19,8:00 AM,34,87,17,Fair
+2018/1/19,8:30 AM,34,87,20,Partly Cloudy
+2018/1/19,9:00 AM,34,87,20,Partly Cloudy
+2018/1/19,9:30 AM,34,93,22,Mostly Cloudy / Windy
+2018/1/19,10:00 AM,34,93,22,Mostly Cloudy / Windy
+2018/1/19,10:30 AM,36,87,20,Mostly Cloudy
+2018/1/19,11:00 AM,34,93,22,Mostly Cloudy / Windy
+2018/1/19,11:30 AM,36,87,22,Partly Cloudy / Windy
+2018/1/19,12:00 PM,36,87,22,Partly Cloudy / Windy
+2018/1/19,12:30 PM,37,81,23,Partly Cloudy / Windy
+2018/1/19,1:00 PM,37,81,21,Partly Cloudy / Windy
+2018/1/19,1:30 PM,37,87,21,Mostly Cloudy / Windy
+2018/1/19,2:00 PM,39,81,20,Partly Cloudy
+2018/1/19,2:30 PM,39,81,24,Partly Cloudy / Windy
+2018/1/19,3:00 PM,39,81,17,Partly Cloudy
+2018/1/19,3:30 PM,39,81,20,Fair
+2018/1/19,4:00 PM,39,81,20,Partly Cloudy
+2018/1/19,4:30 PM,39,81,22,Fair / Windy
+2018/1/19,5:00 PM,39,81,16,Fair
+2018/1/19,5:30 PM,37,81,17,Fair
+2018/1/19,6:00 PM,37,87,18,Fair
+2018/1/19,6:30 PM,37,87,16,Fair
+2018/1/19,7:00 PM,37,87,17,Light Rain Shower
+2018/1/19,7:30 PM,36,87,13,Mostly Cloudy
+2018/1/19,8:00 PM,36,87,14,Mostly Cloudy
+2018/1/19,8:30 PM,36,87,14,Mostly Cloudy
+2018/1/19,9:00 PM,36,87,15,Mostly Cloudy
+2018/1/19,9:30 PM,36,87,14,Mostly Cloudy
+2018/1/19,10:00 PM,36,87,17,Mostly Cloudy
+2018/1/19,10:30 PM,37,81,17,Mostly Cloudy
+2018/1/19,11:00 PM,36,87,16,Fair
+2018/1/19,11:30 PM,36,87,15,Fair
+2018/1/20,12:00 AM,34,93,5,Mostly Cloudy
+2018/1/20,12:30 AM,34,93,2,Mostly Cloudy
+2018/1/20,1:00 AM,36,87,9,Fair
+2018/1/20,1:30 AM,36,93,8,Fair
+2018/1/20,2:00 AM,37,87,10,Fair
+2018/1/20,2:30 AM,37,87,8,Fair
+2018/1/20,3:00 AM,37,87,5,Fair
+2018/1/20,3:30 AM,37,87,6,Fair
+2018/1/20,4:00 AM,37,87,5,Fair
+2018/1/20,4:30 AM,37,87,5,Fair
+2018/1/20,5:00 AM,37,87,5,Light Rain
+2018/1/20,5:30 AM,37,87,3,Light Rain
+2018/1/20,6:00 AM,36,100,5,Light Rain
+2018/1/20,6:30 AM,36,100,2,Light Rain
+2018/1/20,7:00 AM,36,100,3,Light Rain
+2018/1/20,7:30 AM,36,100,5,Light Rain
+2018/1/20,8:00 AM,36,100,3,Light Rain
+2018/1/20,8:30 AM,36,100,6,Light Rain
+2018/1/20,9:00 AM,36,100,7,Light Rain
+2018/1/20,9:30 AM,36,100,9,Light Rain
+2018/1/20,10:00 AM,36,100,10,Light Rain
+2018/1/20,10:30 AM,36,100,9,Light Rain
+2018/1/20,11:00 AM,36,100,9,Light Rain
+2018/1/20,11:30 AM,37,93,10,Light Rain
+2018/1/20,12:00 PM,37,93,9,Light Rain
+2018/1/20,12:30 PM,37,100,10,Light Rain
+2018/1/20,1:00 PM,37,100,10,Light Rain
+2018/1/20,1:30 PM,39,93,12,Light Rain
+2018/1/20,2:00 PM,39,100,9,Light Rain
+2018/1/20,2:30 PM,39,100,10,Light Rain
+2018/1/20,3:00 PM,39,93,9,Light Rain
+2018/1/20,3:30 PM,39,93,7,Light Rain
+2018/1/20,4:00 PM,39,100,7,Light Rain
+2018/1/20,4:30 PM,39,100,5,Light Drizzle
+2018/1/20,5:00 PM,39,100,5,Mostly Cloudy
+2018/1/20,5:30 PM,39,100,8,Light Rain
+2018/1/20,6:00 PM,39,100,10,Light Rain
+2018/1/20,6:30 PM,39,100,9,Light Rain
+2018/1/20,7:00 PM,37,100,6,Mostly Cloudy
+2018/1/20,7:30 PM,37,93,5,Mostly Cloudy
+2018/1/20,8:00 PM,34,100,5,Mostly Cloudy
+2018/1/20,8:30 PM,34,100,3,Partly Cloudy
+2018/1/20,9:00 PM,30,100,3,Fair
+2018/1/20,9:30 PM,30,100,2,Shallow Fog
+2018/1/20,10:00 PM,34,93,5,Mostly Cloudy
+2018/1/20,10:30 PM,34,100,8,Mostly Cloudy
+2018/1/20,11:00 PM,34,93,7,Mostly Cloudy
+2018/1/20,11:30 PM,34,93,3,Mostly Cloudy
+2018/1/21,12:00 AM,46,76,14,Mostly Cloudy
+2018/1/21,12:30 AM,46,81,14,Mostly Cloudy
+2018/1/21,1:00 AM,34,93,1,Mostly Cloudy
+2018/1/21,1:30 AM,34,100,3,Mostly Cloudy
+2018/1/21,2:00 AM,36,100,6,Light Rain
+2018/1/21,2:30 AM,36,100,6,Light Rain
+2018/1/21,3:00 AM,37,100,8,Light Rain
+2018/1/21,3:30 AM,39,93,12,Light Rain
+2018/1/21,4:00 AM,39,93,13,Light Rain
+2018/1/21,4:30 AM,39,100,15,Light Rain
+2018/1/21,5:00 AM,39,100,15,Light Rain
+2018/1/21,5:30 AM,39,100,15,Light Rain
+2018/1/21,6:00 AM,41,93,16,Light Rain
+2018/1/21,6:30 AM,41,100,17,Light Rain
+2018/1/21,7:00 AM,43,93,20,Light Rain
+2018/1/21,7:30 AM,43,93,20,Light Rain
+2018/1/21,8:00 AM,43,100,22,Light Rain / Windy
+2018/1/21,8:30 AM,43,100,18,Light Rain
+2018/1/21,9:00 AM,45,93,18,Light Rain
+2018/1/21,9:30 AM,45,93,16,Light Rain
+2018/1/21,10:00 AM,45,100,13,Rain
+2018/1/21,10:30 AM,45,100,12,Light Rain
+2018/1/21,11:00 AM,45,100,6,Light Rain
+2018/1/21,11:30 AM,48,100,6,Light Rain
+2018/1/21,12:00 PM,50,100,15,Light Rain
+2018/1/21,12:30 PM,52,94,16,Light Rain
+2018/1/21,1:00 PM,52,94,20,Light Rain
+2018/1/21,1:30 PM,52,100,18,Light Rain
+2018/1/21,2:00 PM,52,100,23,Light Rain / Windy
+2018/1/21,2:30 PM,54,94,22,Light Rain / Windy
+2018/1/21,3:00 PM,54,94,24,Light Rain / Windy
+2018/1/21,3:30 PM,54,94,21,Light Rain / Windy
+2018/1/21,4:00 PM,54,94,22,Light Rain / Windy
+2018/1/21,4:30 PM,54,94,18,Light Rain
+2018/1/21,5:00 PM,52,88,32,Mostly Cloudy / Windy
+2018/1/21,5:30 PM,52,82,31,Mostly Cloudy / Windy
+2018/1/21,6:00 PM,50,87,32,Mostly Cloudy / Windy
+2018/1/21,6:30 PM,50,82,33,Mostly Cloudy / Windy
+2018/1/21,7:00 PM,48,82,29,Partly Cloudy / Windy
+2018/1/21,7:30 PM,48,82,29,Partly Cloudy / Windy
+2018/1/21,8:00 PM,48,76,29,Mostly Cloudy / Windy
+2018/1/21,8:30 PM,46,81,26,Mostly Cloudy / Windy
+2018/1/21,9:00 PM,46,81,23,Mostly Cloudy / Windy
+2018/1/21,9:30 PM,48,71,24,Mostly Cloudy / Windy
+2018/1/21,10:00 PM,46,76,24,Mostly Cloudy / Windy
+2018/1/21,10:30 PM,46,81,21,Mostly Cloudy / Windy
+2018/1/21,11:00 PM,46,81,23,Mostly Cloudy / Windy
+2018/1/21,11:30 PM,46,76,17,Mostly Cloudy
+2018/1/22,12:00 AM,48,82,14,Mostly Cloudy
+2018/1/22,12:30 AM,50,82,14,Mostly Cloudy
+2018/1/22,1:00 AM,46,81,14,Light Drizzle
+2018/1/22,1:30 AM,46,81,7,Mostly Cloudy
+2018/1/22,2:00 AM,46,81,9,Mostly Cloudy
+2018/1/22,2:30 AM,46,81,12,Mostly Cloudy
+2018/1/22,3:00 AM,46,81,10,Mostly Cloudy
+2018/1/22,3:30 AM,46,81,9,Mostly Cloudy
+2018/1/22,4:00 AM,45,87,14,Light Drizzle
+2018/1/22,4:30 AM,45,87,13,Mostly Cloudy
+2018/1/22,5:00 AM,45,87,15,Mostly Cloudy
+2018/1/22,5:30 AM,45,87,14,Light Drizzle
+2018/1/22,6:00 AM,45,87,17,Mostly Cloudy
+2018/1/22,6:30 AM,45,81,17,Mostly Cloudy
+2018/1/22,7:00 AM,45,81,16,Mostly Cloudy
+2018/1/22,7:30 AM,43,87,20,Mostly Cloudy
+2018/1/22,8:00 AM,45,81,18,Mostly Cloudy
+2018/1/22,8:30 AM,45,81,20,Mostly Cloudy
+2018/1/22,9:00 AM,45,81,17,Mostly Cloudy
+2018/1/22,9:30 AM,45,81,16,Mostly Cloudy
+2018/1/22,10:00 AM,45,81,17,Mostly Cloudy
+2018/1/22,10:30 AM,45,81,21,Mostly Cloudy / Windy
+2018/1/22,11:00 AM,45,87,16,Mostly Cloudy
+2018/1/22,11:30 AM,46,76,17,Mostly Cloudy
+2018/1/22,12:00 PM,46,81,17,Mostly Cloudy
+2018/1/22,12:30 PM,46,81,17,Mostly Cloudy
+2018/1/22,1:00 PM,46,81,21,Mostly Cloudy / Windy
+2018/1/22,1:30 PM,46,81,20,Mostly Cloudy
+2018/1/22,2:00 PM,46,81,14,Mostly Cloudy
+2018/1/22,2:30 PM,46,76,18,Mostly Cloudy
+2018/1/22,3:00 PM,46,76,14,Mostly Cloudy
+2018/1/22,3:30 PM,46,81,18,Mostly Cloudy
+2018/1/22,4:00 PM,46,81,15,Mostly Cloudy
+2018/1/22,4:30 PM,46,81,15,Mostly Cloudy
+2018/1/22,5:00 PM,46,81,12,Mostly Cloudy
+2018/1/22,5:30 PM,46,81,14,Mostly Cloudy
+2018/1/22,6:00 PM,46,81,8,Mostly Cloudy
+2018/1/22,6:30 PM,46,81,9,Mostly Cloudy
+2018/1/22,7:00 PM,46,81,12,Mostly Cloudy
+2018/1/22,7:30 PM,46,76,14,Mostly Cloudy
+2018/1/22,8:00 PM,46,76,13,Mostly Cloudy
+2018/1/22,8:30 PM,46,81,14,Mostly Cloudy
+2018/1/22,9:00 PM,46,81,13,Mostly Cloudy
+2018/1/22,9:30 PM,46,76,13,Mostly Cloudy
+2018/1/22,10:00 PM,46,81,14,Mostly Cloudy
+2018/1/22,10:30 PM,48,76,13,Mostly Cloudy
+2018/1/22,11:00 PM,48,76,13,Mostly Cloudy
+2018/1/22,11:30 PM,48,82,15,Mostly Cloudy
+2018/1/23,12:00 AM,52,67,26,Mostly Cloudy / Windy
+2018/1/23,12:30 AM,52,71,29,Mostly Cloudy / Windy
+2018/1/23,1:00 AM,50,82,16,Mostly Cloudy
+2018/1/23,1:30 AM,50,82,17,Mostly Cloudy
+2018/1/23,2:00 AM,50,87,17,Mostly Cloudy
+2018/1/23,2:30 AM,50,87,12,Mostly Cloudy
+2018/1/23,3:00 AM,50,87,14,Mostly Cloudy
+2018/1/23,3:30 AM,52,88,15,Mostly Cloudy
+2018/1/23,4:00 AM,52,88,17,Mostly Cloudy
+2018/1/23,4:30 AM,52,88,13,Light Rain
+2018/1/23,5:00 AM,52,88,14,Mostly Cloudy
+2018/1/23,5:30 AM,54,88,13,Mostly Cloudy
+2018/1/23,6:00 AM,54,88,13,Mostly Cloudy
+2018/1/23,6:30 AM,54,88,16,Cloudy
+2018/1/23,7:00 AM,52,94,15,Mostly Cloudy
+2018/1/23,7:30 AM,54,88,14,Mostly Cloudy
+2018/1/23,8:00 AM,54,88,18,Mostly Cloudy
+2018/1/23,8:30 AM,54,88,16,Mostly Cloudy
+2018/1/23,9:00 AM,54,82,17,Mostly Cloudy
+2018/1/23,9:30 AM,54,88,23,Mostly Cloudy / Windy
+2018/1/23,10:00 AM,54,88,25,Mostly Cloudy / Windy
+2018/1/23,10:30 AM,54,88,23,Mostly Cloudy / Windy
+2018/1/23,11:00 AM,54,82,28,Mostly Cloudy / Windy
+2018/1/23,11:30 AM,55,82,25,Mostly Cloudy / Windy
+2018/1/23,12:00 PM,55,77,26,Mostly Cloudy / Windy
+2018/1/23,12:30 PM,55,77,28,Mostly Cloudy / Windy
+2018/1/23,1:00 PM,55,77,28,Mostly Cloudy / Windy
+2018/1/23,1:30 PM,55,77,29,Mostly Cloudy / Windy
+2018/1/23,2:00 PM,55,72,31,Mostly Cloudy / Windy
+2018/1/23,2:30 PM,55,67,29,Partly Cloudy / Windy
+2018/1/23,3:00 PM,55,67,32,Partly Cloudy / Windy
+2018/1/23,3:30 PM,54,67,31,Partly Cloudy / Windy
+2018/1/23,4:00 PM,54,67,30,Mostly Cloudy / Windy
+2018/1/23,4:30 PM,54,58,33,Mostly Cloudy / Windy
+2018/1/23,5:00 PM,52,58,33,Mostly Cloudy / Windy
+2018/1/23,5:30 PM,50,66,24,Mostly Cloudy / Windy
+2018/1/23,6:00 PM,50,66,22,Mostly Cloudy / Windy
+2018/1/23,6:30 PM,50,66,16,Mostly Cloudy
+2018/1/23,7:00 PM,50,66,17,Partly Cloudy
+2018/1/23,7:30 PM,48,66,17,Partly Cloudy
+2018/1/23,8:00 PM,48,71,14,Partly Cloudy
+2018/1/23,8:30 PM,50,71,17,Partly Cloudy
+2018/1/23,9:00 PM,48,76,18,Partly Cloudy
+2018/1/23,9:30 PM,48,76,17,Partly Cloudy
+2018/1/23,10:00 PM,48,76,20,Partly Cloudy
+2018/1/23,10:30 PM,50,76,21,Mostly Cloudy / Windy
+2018/1/23,11:00 PM,50,76,21,Mostly Cloudy / Windy
+2018/1/23,11:30 PM,52,71,24,Mostly Cloudy / Windy
+2018/1/24,12:00 AM,43,76,24,Mostly Cloudy / Windy
+2018/1/24,12:30 AM,43,70,25,Partly Cloudy / Windy
+2018/1/24,1:00 AM,54,72,25,Mostly Cloudy / Windy
+2018/1/24,1:30 AM,54,77,31,Mostly Cloudy / Windy
+2018/1/24,2:00 AM,54,77,33,Mostly Cloudy / Windy
+2018/1/24,2:30 AM,54,77,33,Mostly Cloudy / Windy
+2018/1/24,3:00 AM,54,77,33,Light Drizzle / Windy
+2018/1/24,3:30 AM,54,77,32,Light Rain / Windy
+2018/1/24,4:00 AM,52,94,24,Rain / Windy
+2018/1/24,4:30 AM,48,87,30,Rain / Windy
+2018/1/24,5:00 AM,48,93,21,Rain / Windy
+2018/1/24,5:30 AM,46,87,33,Heavy Rain / Windy
+2018/1/24,6:00 AM,46,76,31,Light Rain / Windy
+2018/1/24,6:30 AM,45,81,28,Mostly Cloudy / Windy
+2018/1/24,7:00 AM,45,76,25,Mostly Cloudy / Windy
+2018/1/24,7:30 AM,45,76,23,Mostly Cloudy / Windy
+2018/1/24,8:00 AM,45,76,23,Mostly Cloudy / Windy
+2018/1/24,8:30 AM,43,81,23,Mostly Cloudy / Windy
+2018/1/24,9:00 AM,43,81,20,Partly Cloudy
+2018/1/24,9:30 AM,43,81,23,Partly Cloudy / Windy
+2018/1/24,10:00 AM,45,76,23,Partly Cloudy / Windy
+2018/1/24,10:30 AM,45,76,23,Partly Cloudy / Windy
+2018/1/24,11:00 AM,45,76,24,Fair / Windy
+2018/1/24,11:30 AM,45,71,28,Fair / Windy
+2018/1/24,12:00 PM,46,71,24,Fair / Windy
+2018/1/24,12:30 PM,46,66,26,Fair / Windy
+2018/1/24,1:00 PM,46,71,29,Fair / Windy
+2018/1/24,1:30 PM,45,71,32,Light Rain Shower / Windy
+2018/1/24,2:00 PM,45,76,26,Light Rain Shower / Windy
+2018/1/24,2:30 PM,46,66,25,Mostly Cloudy / Windy
+2018/1/24,3:00 PM,46,71,29,Mostly Cloudy / Windy
+2018/1/24,3:30 PM,46,71,31,Mostly Cloudy / Windy
+2018/1/24,4:00 PM,45,76,24,Mostly Cloudy / Windy
+2018/1/24,4:30 PM,45,71,28,Mostly Cloudy / Windy
+2018/1/24,5:00 PM,45,76,23,Mostly Cloudy / Windy
+2018/1/24,5:30 PM,43,81,25,Mostly Cloudy / Windy
+2018/1/24,6:00 PM,43,76,22,Partly Cloudy / Windy
+2018/1/24,6:30 PM,43,76,23,Partly Cloudy / Windy
+2018/1/24,7:00 PM,43,76,24,Partly Cloudy / Windy
+2018/1/24,7:30 PM,43,76,23,Partly Cloudy / Windy
+2018/1/24,8:00 PM,43,70,24,Partly Cloudy / Windy
+2018/1/24,8:30 PM,43,76,23,Partly Cloudy / Windy
+2018/1/24,9:00 PM,43,70,24,Partly Cloudy / Windy
+2018/1/24,9:30 PM,43,76,26,Partly Cloudy / Windy
+2018/1/24,10:00 PM,43,76,26,Partly Cloudy / Windy
+2018/1/24,10:30 PM,43,70,24,Mostly Cloudy / Windy
+2018/1/24,11:00 PM,43,70,25,Partly Cloudy / Windy
+2018/1/24,11:30 PM,43,70,25,Mostly Cloudy / Windy
+2018/1/25,12:00 AM,41,93,17,Mostly Cloudy
+2018/1/25,12:30 AM,41,93,15,Mostly Cloudy
+2018/1/25,1:00 AM,41,76,25,Partly Cloudy / Windy
+2018/1/25,1:30 AM,41,76,26,Partly Cloudy / Windy
+2018/1/25,2:00 AM,41,76,26,Partly Cloudy / Windy
+2018/1/25,2:30 AM,41,76,26,Partly Cloudy / Windy
+2018/1/25,3:00 AM,41,76,23,Partly Cloudy / Windy
+2018/1/25,3:30 AM,41,76,21,Partly Cloudy / Windy
+2018/1/25,4:00 AM,41,76,21,Partly Cloudy / Windy
+2018/1/25,4:30 AM,41,76,22,Partly Cloudy / Windy
+2018/1/25,5:00 AM,41,76,24,Partly Cloudy / Windy
+2018/1/25,5:30 AM,41,76,23,Partly Cloudy / Windy
+2018/1/25,6:00 AM,41,76,18,Partly Cloudy
+2018/1/25,6:30 AM,39,81,18,Partly Cloudy
+2018/1/25,7:00 AM,39,81,12,Mostly Cloudy
+2018/1/25,7:30 AM,39,81,15,Mostly Cloudy
+2018/1/25,8:00 AM,41,76,13,Mostly Cloudy
+2018/1/25,8:30 AM,39,81,15,Mostly Cloudy
+2018/1/25,9:00 AM,41,76,14,Mostly Cloudy
+2018/1/25,9:30 AM,41,76,15,Mostly Cloudy
+2018/1/25,10:00 AM,41,76,15,Mostly Cloudy
+2018/1/25,10:30 AM,43,70,20,Mostly Cloudy
+2018/1/25,11:00 AM,43,76,18,Light Rain
+2018/1/25,11:30 AM,43,81,20,Light Rain
+2018/1/25,12:00 PM,41,81,18,Partly Cloudy
+2018/1/25,12:30 PM,43,81,17,Partly Cloudy
+2018/1/25,1:00 PM,45,76,17,Partly Cloudy
+2018/1/25,1:30 PM,45,76,20,Mostly Cloudy
+2018/1/25,2:00 PM,45,81,20,Mostly Cloudy
+2018/1/25,2:30 PM,45,81,20,Partly Cloudy
+2018/1/25,3:13 PM,46,76,22,Partly Cloudy / Windy
+2018/1/25,3:30 PM,46,71,22,Partly Cloudy / Windy
+2018/1/25,4:00 PM,46,71,21,Partly Cloudy / Windy
+2018/1/25,4:30 PM,46,71,22,Partly Cloudy / Windy
+2018/1/25,5:00 PM,45,76,23,Partly Cloudy / Windy
+2018/1/25,5:26 PM,45,81,21,Partly Cloudy / Windy
+2018/1/25,5:44 PM,43,87,21,Light Rain Shower / Windy
+2018/1/25,6:00 PM,43,81,17,Partly Cloudy
+2018/1/25,6:30 PM,41,87,21,Partly Cloudy / Windy
+2018/1/25,7:00 PM,41,87,22,Partly Cloudy / Windy
+2018/1/25,7:30 PM,41,87,21,Partly Cloudy / Windy
+2018/1/25,8:00 PM,41,87,18,Partly Cloudy
+2018/1/25,8:30 PM,41,87,20,Partly Cloudy
+2018/1/25,9:00 PM,41,93,18,Light Rain Shower
+2018/1/25,9:30 PM,41,87,17,Mostly Cloudy
+2018/1/25,10:00 PM,43,87,18,Mostly Cloudy
+2018/1/25,10:30 PM,43,87,17,Light Rain
+2018/1/25,11:00 PM,43,87,16,Mostly Cloudy
+2018/1/25,11:30 PM,43,87,17,Mostly Cloudy
+2018/1/26,12:00 AM,45,81,13,Mostly Cloudy
+2018/1/26,12:30 AM,45,81,12,Mostly Cloudy
+2018/1/26,1:00 AM,41,87,14,Light Rain
+2018/1/26,1:30 AM,41,87,14,Mostly Cloudy
+2018/1/26,2:00 AM,41,87,12,Mostly Cloudy
+2018/1/26,2:30 AM,41,87,12,Light Rain
+2018/1/26,3:00 AM,39,87,9,Mostly Cloudy
+2018/1/26,3:30 AM,37,93,14,Mostly Cloudy
+2018/1/26,4:00 AM,37,93,14,Partly Cloudy
+2018/1/26,4:30 AM,37,93,12,Fair
+2018/1/26,5:00 AM,37,93,13,Fair
+2018/1/26,5:30 AM,37,93,16,Fair
+2018/1/26,6:00 AM,37,93,9,Fair
+2018/1/26,6:30 AM,37,93,10,Fair
+2018/1/26,7:00 AM,36,93,10,Partly Cloudy
+2018/1/26,7:30 AM,36,93,7,Partly Cloudy
+2018/1/26,8:00 AM,34,93,7,Partly Cloudy
+2018/1/26,8:30 AM,34,93,9,Partly Cloudy
+2018/1/26,9:00 AM,34,100,10,Partly Cloudy
+2018/1/26,9:30 AM,36,93,13,Fair
+2018/1/26,10:00 AM,36,93,12,Fair
+2018/1/26,10:30 AM,37,93,8,Fair
+2018/1/26,11:00 AM,37,100,10,Fair
+2018/1/26,11:30 AM,39,93,13,Fair
+2018/1/26,12:00 PM,41,87,9,Fair
+2018/1/26,12:30 PM,43,81,8,Fair
+2018/1/26,1:00 PM,43,81,7,Partly Cloudy
+2018/1/26,1:30 PM,43,87,14,Mostly Cloudy
+2018/1/26,2:00 PM,43,87,12,Mostly Cloudy
+2018/1/26,2:30 PM,43,87,14,Mostly Cloudy
+2018/1/26,3:00 PM,43,87,12,Mostly Cloudy
+2018/1/26,3:30 PM,43,87,12,Mostly Cloudy
+2018/1/26,4:00 PM,43,87,9,Mostly Cloudy
+2018/1/26,4:30 PM,43,87,10,Mostly Cloudy
+2018/1/26,5:00 PM,43,87,9,Mostly Cloudy
+2018/1/26,5:30 PM,43,87,9,Mostly Cloudy
+2018/1/26,6:00 PM,43,87,9,Mostly Cloudy
+2018/1/26,6:30 PM,43,87,9,Mostly Cloudy
+2018/1/26,7:00 PM,43,87,8,Mostly Cloudy
+2018/1/26,7:30 PM,43,87,9,Mostly Cloudy
+2018/1/26,8:00 PM,43,87,8,Mostly Cloudy
+2018/1/26,8:30 PM,45,81,8,Mostly Cloudy
+2018/1/26,9:00 PM,45,81,13,Light Rain
+2018/1/26,9:30 PM,45,81,13,Light Rain
+2018/1/26,10:00 PM,43,87,13,Light Rain
+2018/1/26,10:30 PM,43,87,13,Light Rain
+2018/1/26,11:00 PM,43,87,13,Mostly Cloudy
+2018/1/26,11:30 PM,45,76,13,Mostly Cloudy
+2018/1/27,12:00 AM,48,82,18,Partly Cloudy
+2018/1/27,12:30 AM,48,82,16,Partly Cloudy
+2018/1/27,1:00 AM,45,81,14,Mostly Cloudy
+2018/1/27,1:30 AM,45,87,14,Mostly Cloudy
+2018/1/27,2:00 AM,46,81,18,Mostly Cloudy
+2018/1/27,2:30 AM,46,87,20,Mostly Cloudy
+2018/1/27,3:00 AM,46,87,21,Mostly Cloudy / Windy
+2018/1/27,3:30 AM,46,87,20,Mostly Cloudy
+2018/1/27,4:00 AM,46,87,16,Light Rain
+2018/1/27,4:30 AM,46,93,14,Light Rain
+2018/1/27,5:00 AM,46,93,15,Light Rain
+2018/1/27,5:30 AM,48,87,13,Light Rain
+2018/1/27,6:00 AM,48,93,14,Light Rain
+2018/1/27,6:30 AM,48,93,13,Light Rain
+2018/1/27,7:00 AM,48,93,16,Light Rain
+2018/1/27,7:30 AM,50,94,16,Light Rain
+2018/1/27,8:00 AM,50,94,21,Light Rain / Windy
+2018/1/27,8:30 AM,50,94,20,Light Rain
+2018/1/27,9:00 AM,50,100,22,Light Rain / Windy
+2018/1/27,9:30 AM,50,100,22,Light Rain / Windy
+2018/1/27,10:00 AM,52,94,20,Light Rain
+2018/1/27,10:30 AM,52,94,20,Light Drizzle
+2018/1/27,11:00 AM,52,94,20,Light Drizzle
+2018/1/27,11:30 AM,52,94,18,Mostly Cloudy
+2018/1/27,12:00 PM,54,88,20,Mostly Cloudy
+2018/1/27,12:30 PM,54,88,18,Mostly Cloudy
+2018/1/27,1:00 PM,54,88,20,Mostly Cloudy
+2018/1/27,1:30 PM,54,88,18,Mostly Cloudy
+2018/1/27,2:00 PM,54,94,20,Mostly Cloudy
+2018/1/27,2:30 PM,54,88,23,Mostly Cloudy / Windy
+2018/1/27,3:00 PM,55,82,26,Mostly Cloudy / Windy
+2018/1/27,3:30 PM,54,88,24,Showers in the Vicinity
+2018/1/27,4:00 PM,54,94,24,Light Rain / Windy
+2018/1/27,4:30 PM,54,82,26,Light Rain / Windy
+2018/1/27,5:00 PM,52,94,32,Light Rain Shower / Windy
+2018/1/27,5:30 PM,52,88,24,Mostly Cloudy / Windy
+2018/1/27,6:00 PM,52,76,28,Mostly Cloudy / Windy
+2018/1/27,6:30 PM,50,76,28,Mostly Cloudy / Windy
+2018/1/27,7:00 PM,50,76,25,Mostly Cloudy / Windy
+2018/1/27,7:30 PM,48,82,26,Mostly Cloudy / Windy
+2018/1/27,8:00 PM,48,82,24,Mostly Cloudy / Windy
+2018/1/27,8:30 PM,48,82,24,Mostly Cloudy / Windy
+2018/1/27,9:00 PM,46,87,21,Partly Cloudy / Windy
+2018/1/27,9:30 PM,46,87,20,Fair
+2018/1/27,10:00 PM,46,87,23,Fair / Windy
+2018/1/27,10:30 PM,46,87,17,Partly Cloudy
+2018/1/27,11:00 PM,46,87,20,Partly Cloudy
+2018/1/27,11:30 PM,46,87,18,Partly Cloudy
+2018/1/28,12:00 AM,50,87,24,Mostly Cloudy / Windy
+2018/1/28,12:30 AM,52,82,24,Mostly Cloudy / Windy
+2018/1/28,1:00 AM,46,87,17,Partly Cloudy
+2018/1/28,1:30 AM,48,87,18,Partly Cloudy
+2018/1/28,2:00 AM,48,87,18,Partly Cloudy
+2018/1/28,2:30 AM,50,87,18,Partly Cloudy
+2018/1/28,3:00 AM,50,87,20,Light Drizzle
+2018/1/28,3:30 AM,50,94,17,Mostly Cloudy
+2018/1/28,4:00 AM,50,94,18,Mostly Cloudy
+2018/1/28,4:30 AM,50,94,17,Mostly Cloudy
+2018/1/28,5:00 AM,52,94,21,Light Drizzle / Windy
+2018/1/28,6:00 AM,52,94,22,Mostly Cloudy / Windy
+2018/1/28,6:30 AM,54,94,22,Light Drizzle / Windy
+2018/1/28,7:00 AM,54,94,23,Light Rain / Windy
+2018/1/28,7:30 AM,54,88,23,Mostly Cloudy / Windy
+2018/1/28,8:00 AM,54,88,23,Light Rain / Windy
+2018/1/28,8:30 AM,54,88,23,Light Rain / Windy
+2018/1/28,9:00 AM,54,94,24,Light Drizzle / Windy
+2018/1/28,9:30 AM,54,88,24,Light Drizzle / Windy
+2018/1/28,10:00 AM,54,94,24,Light Rain / Windy
+2018/1/28,10:30 AM,54,88,28,Light Drizzle / Windy
+2018/1/28,11:00 AM,54,88,26,Light Drizzle / Windy
+2018/1/28,11:30 AM,54,88,28,Mostly Cloudy / Windy
+2018/1/28,12:00 PM,54,88,32,Mostly Cloudy / Windy
+2018/1/28,12:30 PM,54,88,29,Mostly Cloudy / Windy
+2018/1/28,1:00 PM,55,82,28,Mostly Cloudy / Windy
+2018/1/28,1:30 PM,55,82,29,Mostly Cloudy / Windy
+2018/1/28,2:00 PM,55,82,26,Mostly Cloudy / Windy
+2018/1/28,2:30 PM,55,77,26,Light Drizzle / Windy
+2018/1/28,3:00 PM,54,82,28,Mostly Cloudy / Windy
+2018/1/28,3:30 PM,55,77,20,Mostly Cloudy
+2018/1/28,4:00 PM,55,77,22,Mostly Cloudy / Windy
+2018/1/28,4:30 PM,54,77,24,Mostly Cloudy / Windy
+2018/1/28,5:00 PM,54,77,21,Mostly Cloudy / Windy
+2018/1/28,5:30 PM,54,77,25,Mostly Cloudy / Windy
+2018/1/28,6:00 PM,54,72,25,Mostly Cloudy / Windy
+2018/1/28,6:30 PM,54,72,23,Mostly Cloudy / Windy
+2018/1/28,7:00 PM,52,76,22,Mostly Cloudy / Windy
+2018/1/28,7:30 PM,52,82,22,Mostly Cloudy / Windy
+2018/1/28,8:00 PM,52,82,20,Light Drizzle
+2018/1/28,8:30 PM,52,82,23,Light Drizzle / Windy
+2018/1/28,9:00 PM,52,82,21,Mostly Cloudy / Windy
+2018/1/28,9:30 PM,52,82,24,Mostly Cloudy / Windy
+2018/1/28,10:00 PM,52,82,28,Mostly Cloudy / Windy
+2018/1/28,10:30 PM,52,82,24,Mostly Cloudy / Windy
+2018/1/28,11:00 PM,52,82,23,Mostly Cloudy / Windy
+2018/1/28,11:30 PM,52,88,23,Light Drizzle / Windy
+2018/1/29,12:00 AM,37,87,9,Fair
+2018/1/29,12:30 AM,37,87,12,Fair
+2018/1/29,1:00 AM,52,88,24,Mostly Cloudy / Windy
+2018/1/29,1:30 AM,52,88,25,Mostly Cloudy / Windy
+2018/1/29,2:00 AM,52,88,25,Mostly Cloudy / Windy
+2018/1/29,2:30 AM,52,88,26,Mostly Cloudy / Windy
+2018/1/29,3:00 AM,52,88,29,Light Rain / Windy
+2018/1/29,3:30 AM,52,88,29,Light Rain / Windy
+2018/1/29,4:00 AM,52,88,29,Light Rain / Windy
+2018/1/29,4:30 AM,50,94,25,Light Rain / Windy
+2018/1/29,5:00 AM,50,94,24,Light Rain / Windy
+2018/1/29,5:30 AM,50,94,22,Light Rain / Windy
+2018/1/29,6:00 AM,48,93,17,Rain
+2018/1/29,6:30 AM,48,93,14,Light Rain
+2018/1/29,7:00 AM,46,100,12,Light Rain
+2018/1/29,7:30 AM,46,93,14,Light Rain
+2018/1/29,8:00 AM,45,93,18,Light Rain
+2018/1/29,8:30 AM,45,93,15,Light Rain
+2018/1/29,9:00 AM,45,93,16,Light Rain
+2018/1/29,9:30 AM,45,87,21,Light Rain / Windy
+2018/1/29,10:00 AM,43,93,17,Light Rain
+2018/1/29,10:30 AM,43,93,14,Mostly Cloudy
+2018/1/29,11:00 AM,43,87,14,Partly Cloudy
+2018/1/29,11:30 AM,43,93,15,Partly Cloudy
+2018/1/29,12:00 PM,45,87,17,Partly Cloudy
+2018/1/29,12:30 PM,45,81,16,Fair
+2018/1/29,1:00 PM,45,81,17,Fair
+2018/1/29,1:30 PM,45,76,20,Fair
+2018/1/29,2:00 PM,45,76,18,Partly Cloudy
+2018/1/29,2:30 PM,45,76,17,Fair
+2018/1/29,3:00 PM,45,76,16,Fair
+2018/1/29,3:30 PM,45,76,15,Fair
+2018/1/29,4:00 PM,45,76,15,Fair
+2018/1/29,4:30 PM,45,71,14,Fair
+2018/1/29,5:00 PM,43,76,10,Partly Cloudy
+2018/1/29,5:30 PM,45,71,9,Mostly Cloudy
+2018/1/29,6:00 PM,43,81,9,Mostly Cloudy
+2018/1/29,6:30 PM,41,81,9,Mostly Cloudy
+2018/1/29,7:00 PM,41,81,8,Partly Cloudy
+2018/1/29,7:30 PM,41,87,9,Light Rain Shower
+2018/1/29,8:00 PM,41,81,9,Partly Cloudy
+2018/1/29,8:30 PM,39,81,10,Partly Cloudy
+2018/1/29,9:00 PM,41,81,8,Fair
+2018/1/29,9:30 PM,39,87,10,Fair
+2018/1/29,10:00 PM,39,81,7,Fair
+2018/1/29,10:30 PM,39,81,8,Fair
+2018/1/29,11:00 PM,37,87,9,Fair
+2018/1/29,11:30 PM,37,87,10,Fair
+2018/1/30,12:00 AM,43,93,26,Light Rain / Windy
+2018/1/30,12:30 AM,43,93,20,Mostly Cloudy
+2018/1/30,1:00 AM,37,87,12,Fair
+2018/1/30,1:30 AM,37,87,13,Fair
+2018/1/30,2:00 AM,37,87,12,Fair
+2018/1/30,2:30 AM,37,87,12,Fair
+2018/1/30,3:00 AM,37,87,10,Partly Cloudy
+2018/1/30,3:30 AM,37,87,10,Partly Cloudy
+2018/1/30,4:00 AM,37,87,10,Partly Cloudy
+2018/1/30,4:30 AM,37,87,9,Partly Cloudy
+2018/1/30,5:00 AM,39,81,10,Mostly Cloudy
+2018/1/30,5:30 AM,39,81,10,Mostly Cloudy
+2018/1/30,6:00 AM,39,81,9,Mostly Cloudy
+2018/1/30,6:30 AM,39,81,8,Mostly Cloudy
+2018/1/30,7:00 AM,37,87,8,Fair
+2018/1/30,7:30 AM,37,87,6,Fair
+2018/1/30,8:00 AM,37,87,9,Fair
+2018/1/30,8:30 AM,37,87,10,Partly Cloudy
+2018/1/30,9:00 AM,37,87,10,Mostly Cloudy
+2018/1/30,9:30 AM,39,75,8,Mostly Cloudy
+2018/1/30,10:00 AM,39,75,10,Mostly Cloudy
+2018/1/30,10:30 AM,39,75,13,Mostly Cloudy
+2018/1/30,11:00 AM,41,70,9,Mostly Cloudy
+2018/1/30,11:30 AM,41,76,8,Mostly Cloudy
+2018/1/30,12:00 PM,41,76,8,Mostly Cloudy
+2018/1/30,12:30 PM,43,70,7,Mostly Cloudy
+2018/1/30,1:00 PM,43,70,8,Mostly Cloudy
+2018/1/30,1:30 PM,43,70,8,Mostly Cloudy
+2018/1/30,2:00 PM,43,76,12,Mostly Cloudy
+2018/1/30,2:30 PM,43,76,10,Mostly Cloudy
+2018/1/30,3:00 PM,43,70,17,Mostly Cloudy
+2018/1/30,3:30 PM,43,66,17,Mostly Cloudy
+2018/1/30,4:00 PM,43,66,16,Mostly Cloudy
+2018/1/30,4:30 PM,43,66,14,Mostly Cloudy
+2018/1/30,5:00 PM,43,70,14,Cloudy
+2018/1/30,5:30 PM,43,70,13,Mostly Cloudy
+2018/1/30,6:00 PM,43,76,13,Light Drizzle
+2018/1/30,6:30 PM,43,76,12,Mostly Cloudy
+2018/1/30,7:00 PM,41,87,12,Mostly Cloudy
+2018/1/30,7:30 PM,41,87,10,Mostly Cloudy
+2018/1/30,8:00 PM,43,76,12,Mostly Cloudy
+2018/1/30,8:30 PM,43,81,15,Mostly Cloudy
+2018/1/30,9:00 PM,43,81,16,Mostly Cloudy
+2018/1/30,9:30 PM,43,81,18,Mostly Cloudy
+2018/1/30,10:00 PM,43,81,18,Light Rain
+2018/1/30,10:30 PM,43,87,21,Light Rain / Windy
+2018/1/30,11:00 PM,43,87,21,Light Rain / Windy
+2018/1/30,11:30 PM,43,93,24,Light Rain / Windy
+2018/1/31,12:00 AM,39,87,13,Fair
+2018/1/31,12:30 AM,37,93,12,Fair
+2018/1/31,1:00 AM,45,87,18,Mostly Cloudy
+2018/1/31,1:30 AM,45,81,17,Light Rain
+2018/1/31,2:00 AM,45,87,17,Light Rain
+2018/1/31,2:30 AM,45,81,25,Light Rain / Windy
+2018/1/31,3:00 AM,45,81,20,Mostly Cloudy
+2018/1/31,3:30 AM,45,81,24,Light Rain Shower / Windy
+2018/1/31,4:00 AM,43,81,30,Light Rain Shower / Windy
+2018/1/31,4:30 AM,41,81,24,Light Rain Shower / Windy
+2018/1/31,5:00 AM,37,93,28,Rain Shower / Windy
+2018/1/31,5:30 AM,39,87,23,Light Rain Shower / Windy
+2018/1/31,6:00 AM,39,70,23,Light Rain Shower / Windy
+2018/1/31,6:30 AM,37,81,22,Light Rain Shower / Windy
+2018/1/31,7:00 AM,36,87,22,Partly Cloudy / Windy
+2018/1/31,7:30 AM,36,87,18,Partly Cloudy
+2018/1/31,8:00 AM,36,87,22,Partly Cloudy / Windy
+2018/1/31,8:30 AM,36,87,18,Mostly Cloudy
+2018/1/31,9:00 AM,34,93,17,Light Rain Shower
+2018/1/31,9:30 AM,36,87,18,Fair
+2018/1/31,10:00 AM,36,81,20,Fair
+2018/1/31,10:30 AM,36,87,18,Partly Cloudy
+2018/1/31,11:00 AM,37,81,23,Showers in the Vicinity
+2018/1/31,11:30 AM,36,87,29,Light Rain Shower / Windy
+2018/1/31,12:00 PM,36,93,25,Showers in the Vicinity
+2018/1/31,12:30 PM,37,87,22,Showers in the Vicinity
+2018/1/31,1:00 PM,37,81,28,Showers in the Vicinity
+2018/1/31,1:30 PM,39,81,29,Showers in the Vicinity
+2018/1/31,2:00 PM,39,75,26,Showers in the Vicinity
+2018/1/31,2:30 PM,39,75,30,Showers in the Vicinity
+2018/1/31,3:00 PM,37,87,26,Mostly Cloudy / Windy
+2018/1/31,3:30 PM,39,75,21,Mostly Cloudy / Windy
+2018/1/31,4:00 PM,39,75,24,Partly Cloudy / Windy
+2018/1/31,4:30 PM,39,75,24,Partly Cloudy / Windy
+2018/1/31,5:00 PM,39,75,18,Light Rain Shower
+2018/1/31,5:30 PM,37,87,26,Partly Cloudy / Windy
+2018/1/31,6:00 PM,37,87,25,Partly Cloudy / Windy
+2018/1/31,6:30 PM,37,87,24,Partly Cloudy / Windy
+2018/1/31,7:00 PM,37,87,24,Mostly Cloudy / Windy
+2018/1/31,7:30 PM,37,87,23,Mostly Cloudy / Windy
+2018/1/31,8:00 PM,37,87,28,Light Rain Shower / Windy
+2018/1/31,8:30 PM,36,93,25,Mostly Cloudy / Windy
+2018/1/31,9:00 PM,37,93,29,Mostly Cloudy / Windy
+2018/1/31,9:30 PM,37,87,28,Mostly Cloudy / Windy
+2018/1/31,10:00 PM,37,93,24,Mostly Cloudy / Windy
+2018/1/31,10:30 PM,39,87,22,Mostly Cloudy / Windy
+2018/1/31,11:00 PM,39,87,20,Mostly Cloudy
+2018/1/31,11:30 PM,39,87,18,Mostly Cloudy

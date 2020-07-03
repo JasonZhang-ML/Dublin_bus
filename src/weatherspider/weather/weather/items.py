@@ -14,4 +14,5 @@ class WeatherItem(scrapy.Item):
     time = scrapy.Field()
     temp = scrapy.Field()
     humid = scrapy.Field()
+    windspeed = scrapy.Field()
     condition = scrapy.Field()

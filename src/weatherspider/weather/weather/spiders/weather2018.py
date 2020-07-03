@@ -32,6 +32,7 @@ class Weather2018Spider(scrapy.Spider):
             item['time'] = r.xpath('td[1]/span/text()').extract()
             item['temp'] = r.xpath("td[2]//span[@class='wu-value wu-value-to']/text()").extract()
             item['humid'] = r.xpath("td[4]//span[@class='wu-value wu-value-to']/text()").extract()
+            item['windspeed'] = r.xpath("td[6]//span[@class='wu-value wu-value-to']/text()").extract()
             item['condition'] = r.xpath('td[10]/span/text()').extract()
             yield item
 

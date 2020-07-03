@@ -30,6 +30,7 @@ FIELDS_TO_EXPORT = [
    'time',
    'temp',
    'humid',
+   'windspeed',
    'condition',
    ]
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
