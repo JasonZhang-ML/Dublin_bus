@@ -2,6 +2,8 @@
 import scrapy
 from scrapy import Request
 from weather.items import WeatherItem
+from datetime import datetime
+import pandas as pd
 
 
 class Weather2018Spider(scrapy.Spider):
@@ -16,9 +18,9 @@ class Weather2018Spider(scrapy.Spider):
     #         yield Request(url, callback=self.weather_parse)
 
     def parse(self, response):
-        for i in range(1, 32): # 32
-            date = '2018-1-{}'.format(i)
-            url = "https://wunderground.com/history/daily/EIDW/date/2018-1-{}".format(i)
+        date_l=[datetime.strftime(x,'%Y-%m-%d') for x in list(pd.date_range(start="20180101", end="20181231"))]
+        for date in date_l:
+            url = "https://wunderground.com/history/daily/EIDW/date/{}".format(date)
             yield Request(url,meta={'date':date}, callback=self.second_parse)
 
     def second_parse(self, response):
