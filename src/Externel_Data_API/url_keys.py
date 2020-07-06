@@ -16,6 +16,12 @@ TTBI_API_URL = "https://data.smartdublin.ie/cgi-bin/rtpi/timetableinformation?ty
 # Bus stop Information
 BSI_API_URL = "https://data.smartdublin.ie/cgi-bin/rtpi/busstopinformation?stopid={stopid}&format=json"
 
+ROUTE_API_URL = "https://maps.googleapis.com/maps/api/directions/json?origin={orgin}&destination={destination}&mode=transit&key=AIzaSyDRFftJAeaUuyk8GD8lNnhMhdj6WX3ju-s"
+
+DISTANCE_API_URL = "https://maps.googleapis.com/maps/api/distancematrix/json?origins={orgin}&destinations={destination}&mode=transit&transit_mode=bus&key=AIzaSyDRFftJAeaUuyk8GD8lNnhMhdj6WX3ju-s"
+
+MAP_API_KEY = "AIzaSyDRFftJAeaUuyk8GD8lNnhMhdj6WX3ju-s"
+
 # db
 DB_SERVER = ""  # host name
 DB_USER = ""  # user name
