@@ -1,12 +1,6 @@
 import requests
 # import MySQLdb # one method to connect to mysql, not sure use which one
-
-# import sys
-# import os
-# sys.path.append(os.getcwd()+'\\src\\Externel_Data_API')
-
-import url_keys
-import logger
+from Externel_Data_API import url_keys, logger
 
  
 class BusWeatherCrawler:
