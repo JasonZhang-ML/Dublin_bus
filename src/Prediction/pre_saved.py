@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 from sklearn.pipeline import Pipeline
 import MySQLdb
-import datetime
 import joblib
+import os
 
 
 def access_mysql(cur, line, direction):
@@ -41,12 +41,28 @@ def save_pre_data(line, direction):
     cur.close()
 
 if __name__ == '__main__':
-    # cxn = MySQLdb.connect(user='user', password='nUT8+~nYRS/9-i$') # TODO change password loc
-    # cur = cxn.cursor()
-    # cur.execute("SELECT distinct LINEID FROM busduck.rt_trips_db;")
-    # all_routes = cur.fetchall()
-    # cur.close()
-    routes = ['104','11','111','116', '120', '122', '13']
+    # routes = ['104','11','111','116', '120', '122', '13']
+    cxn = MySQLdb.connect(user='user', password='nUT8+~nYRS/9-i$') # TODO change password loc
+    cur = cxn.cursor()
+    cur.execute("SELECT distinct LINEID FROM busduck.rt_trips_db;")
+    all_routes = cur.fetchall()
+    cur.close()
+    all_routes = [list(item) for item in all_routes]
+    all_routes = sum(all_routes, [])
+    all_routes.reverse()
+    routes = all_routes
+
     for i in routes:
-        save_pre_data(i, 1)
-        save_pre_data(i, 2)
+        try:
+            pkl_name = str(i) + "_" + str(1) + ".pkl"
+            if ~os.path.exists(pkl_name):
+                save_pre_data(i, 1)
+        except Exception:
+            pass
+        try:
+            pkl_name = str(i) + "_" + str(2) + ".pkl"
+            if ~os.path.exists(pkl_name):
+                save_pre_data(i, 2)
+        except Exception:
+            pass
+        continue
