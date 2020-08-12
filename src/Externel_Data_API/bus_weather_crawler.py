@@ -1,8 +1,9 @@
 import requests
 # import MySQLdb # one method to connect to mysql, not sure use which one
 from Externel_Data_API import url_keys, logger
-
+import pandas as pd
  
+
 class BusWeatherCrawler:
     db_name = url_keys.DB_NAME
 
@@ -25,6 +26,10 @@ class BusWeatherCrawler:
     def __init__(self):
         self.data = []
         self.log = logger.Logger(BusWeatherCrawler.LOGGER_NAME)
+        x = pd.read_table('../Externel_Data_API/stops.txt', sep=',') # TODO:care about location
+        x["stop_id"] = x.apply(lambda x: x.stop_id[-4:], axis=1)
+        self.stopinfo = x
+
 
     def request_weather_api(self, lat, lng):
         url = BusWeatherCrawler.weather_api_url.format(
@@ -101,6 +106,10 @@ class BusWeatherCrawler:
         except Exception as e:
             self.log.ERROR("request - {}: {}".format(url, e))
 
+    def access_busstopinfo_api(self, stopid): # local version
+        stopid = str(stopid).zfill(4)
+        r = self.stopinfo[self.stopinfo.eval("stop_id == '{}'".format(stopid))]
+        return [str(float(r["stop_lat"])), str(float(r["stop_lon"]))]
 
     def request_route_api_coor(self, orginLat, orginLon, destinationLat, destinationLon):
         url = BusWeatherCrawler.route_api_url.format(
@@ -130,12 +139,16 @@ class BusWeatherCrawler:
         return self.request_route_api_coor(oLat, oLon, dLat, dLon)
 
     def request_distance_api(self, orginid, destinationid, routeid):
-        orgin = self.request_busstopinfo_api(orginid)
-        destination = self.request_busstopinfo_api(destinationid)
-        oLat = orgin['results'][0]['latitude']
-        oLon = orgin['results'][0]['longitude']
-        dLat = destination['results'][0]['latitude']
-        dLon = destination['results'][0]['longitude']
+        # orgin = self.request_busstopinfo_api(orginid)
+        # destination = self.request_busstopinfo_api(destinationid)
+        # oLat = orgin['results'][0]['latitude']
+        # oLon = orgin['results'][0]['longitude']
+        # dLat = destination['results'][0]['latitude']
+        # dLon = destination['results'][0]['longitude']
+
+        # new version use local businfo
+        [oLat, oLon] = self.access_busstopinfo_api(orginid)
+        [dLat, dLon] = self.access_busstopinfo_api(destinationid)
         url = BusWeatherCrawler.distance_api_url.format(
             orgin = oLat + "," + oLon,
             destination = dLat + "," + dLon
