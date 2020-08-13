@@ -6,12 +6,17 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import and_, or_
 from functools import wraps
 import pymysql
+from flask_cors import CORS
+
+
 
 
 
 app = Flask(__name__)
+# 解决跨域问题
+CORS(app, supports_credentials=True)
 #local database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:kki880611@127.0.0.1:3306/test?charset=utf8'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:wangbowen1124@127.0.0.1:3306/test?charset=utf8'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 db = SQLAlchemy(app)
@@ -49,8 +54,8 @@ def valid_login(username, password):
     else:
         return False
 
-def valid_regist(username, email):
-    user = User.query.filter(or_(User.username == username, User.email == email)).first()
+def valid_regist(username):
+    user = User.query.filter(or_(User.username == username)).first()
     if user:
         return False
     else:
@@ -62,19 +67,21 @@ def valid_regist(username, email):
 @app.route('/')
 @app.route('/home')
 def index():
-    return render_template("index.html")
+    return render_template("./dist/index.html")
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None
+    validation = 0;
     if request.method == 'POST':
-        if valid_login(request.form['username'], request.form['password']):
+        result = json.loads(request.data)
+        # return request.data
+        if valid_login(result['username'], result['password']):
             #session['username'] = request.form.get('username')
-            return redirect('/home')
-        else:
-            error = 'wrong username or password!'
+            validation=1;
+    return json.dumps({"validation":validation}, ensure_ascii=False)
 
-    return render_template('login.html', error=error)
+    # return render_template('login.html', error=error)
 
 @app.route('/logout')
 def logout():
@@ -84,18 +91,17 @@ def logout():
 @app.route('/regist', methods=['GET','POST'])
 def regist():
     error = None
+    validation = 0;
     if request.method == 'POST':
-        if request.form['password1'] != request.form['password2']:
-            error = 'The passwords is not same.'
-        elif valid_regist(request.form['username'], request.form['email']):
-            user = User(username=request.form['username'], password=request.form['password1'], email=request.form['email'])
+        result = json.loads(request.data)
+        # if result['password1'] != result['password2']:
+        #     error = 'The passwords is not same.'
+        if valid_regist(result['username']):
+            user = User(username=result['username'], password=result['password'])
             db.session.add(user)
             db.session.commit()
-            return redirect(url_for('login'))
-        else:
-            error = 'The username or email has been registed!'
-    
-    return render_template('regist.html', error=error)
+            validation = 1
+    return json.dumps({"validation":validation}, ensure_ascii=False)
 
 @app.route('/lines')
 def linesInfo():
