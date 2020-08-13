@@ -2,17 +2,17 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 import numpy as np
 import pandas as pd
-import MySQLdb
+import pymysql
 import datetime
 
 import sys
-sys.path.append('d:\\OneDrive - University College Dublin\\Codes\\Dublin_bus\\src') # TODO
-from Externel_Data_API.bus_weather_crawler import BusWeatherCrawler
+sys.path.append('/Users/ywq/Dublin_bus/src') # TODO
+#from Externel_Data_API.bus_weather_crawler import BusWeatherCrawler
 
 
 class InitABT(BaseEstimator, TransformerMixin):
     def __init__(self, line):
-        self.weather_DF = pd.read_csv("D:/OneDrive - University College Dublin/Codes/Dublin_bus/src/Data Analysis/2018_daily_inserted.csv", index_col="Unnamed: 0")
+        self.weather_DF = pd.read_csv("/Users/ywq/Dublin_bus/src/Data Analysis/2018_daily_inserted.csv", index_col="Unnamed: 0")
         self.weather_DF.date = self.weather_DF.date.astype("datetime64[ns]")
         self.weather_DF.time = self.weather_DF.time.apply(lambda x: datetime.datetime.strptime(x, "%H:%M:%S").time())
         self.line = line

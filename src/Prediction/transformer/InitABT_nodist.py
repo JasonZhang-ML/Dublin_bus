@@ -2,12 +2,12 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 import numpy as np
 import pandas as pd
-import MySQLdb
+import pymysql
 import datetime
 
 import sys
-sys.path.append('d:\\OneDrive - University College Dublin\\Codes\\Dublin_bus\\src') # TODO
-from Externel_Data_API.bus_weather_crawler import BusWeatherCrawler
+sys.path.append('/Users/ywq/Dublin_bus/src') # TODO
+#from Externel_Data_API.bus_weather_crawler import BusWeatherCrawler
 
 
 class InitABT_nodist(BaseEstimator, TransformerMixin):

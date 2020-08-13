@@ -2,7 +2,7 @@ from transformer import *
 import pandas as pd
 import numpy as np
 from sklearn.pipeline import Pipeline
-import MySQLdb
+import pymysql
 import joblib
 import os
 
@@ -18,7 +18,7 @@ def access_mysql(cur, line, direction):
     return  pd.DataFrame(rows, columns=[i[0] for i in cur.description])
 
 def save_pre_data(line, direction):
-    cxn = MySQLdb.connect(user='user', password='nUT8+~nYRS/9-i$') # TODO change password loc
+    cxn = pymysql.connect(user='user', password='nUT8+~nYRS/9-i$') # TODO change password loc
     cur = cxn.cursor()
     # Data base and Load weather
     DF = access_mysql(cur, line, direction)
@@ -41,7 +41,7 @@ def save_pre_data(line, direction):
 
 if __name__ == '__main__':
     # routes = ['104','11','111','116', '120', '122', '13']
-    cxn = MySQLdb.connect(user='user', password='nUT8+~nYRS/9-i$') # TODO change password loc
+    cxn = pymysql.connect(user='root', password='kki880611') # TODO change password loc
     cur = cxn.cursor()
     cur.execute("SELECT distinct LINEID FROM busduck.rt_trips_db;")
     all_routes = cur.fetchall()

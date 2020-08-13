@@ -1,5 +1,4 @@
 import database as db
-#from Externel_Data_API import bus_weather_crawler as API
 import json
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from flask_sqlalchemy import SQLAlchemy
@@ -13,7 +12,6 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-# 解决跨域问题
 CORS(app, supports_credentials=True)
 #local database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:wangbowen1124@127.0.0.1:3306/test?charset=utf8'
@@ -72,13 +70,13 @@ def index():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None
-    validation = 0;
+    validation = 0
     if request.method == 'POST':
         result = json.loads(request.data)
         # return request.data
         if valid_login(result['username'], result['password']):
             #session['username'] = request.form.get('username')
-            validation=1;
+            validation=1
     return json.dumps({"validation":validation}, ensure_ascii=False)
 
     # return render_template('login.html', error=error)
@@ -91,7 +89,7 @@ def logout():
 @app.route('/regist', methods=['GET','POST'])
 def regist():
     error = None
-    validation = 0;
+    validation = 0
     if request.method == 'POST':
         result = json.loads(request.data)
         # if result['password1'] != result['password2']:
@@ -103,30 +101,20 @@ def regist():
             validation = 1
     return json.dumps({"validation":validation}, ensure_ascii=False)
 
-@app.route('/lines')
-def linesInfo():
-    return db.get_line_ids()
-
-@app.route('/direction', methods=['POST'])
-def direction():
-    #may be we need to build direction function?
-    pass
-
 @app.route('/predict', methods=['POST'])
 def predict():
-    req = {}
-    req['orig_stop_id']=request.form['origin'].split(', ')[0]
-    req['dest_stop_id'] = request.form['destination'].split(', ')[0]
-    #get prediction from model
-    return 0
+    dic = json.load(request.data)
+    result_dict = {}
+    for route in dic:
+        routeid =  route['route_id']
+        oriid = route['ori_id']
+        desid = route['des_id']
+        dayofweek = route['dayofweek']
+        time = route['time']
+        pretime = pred.getPredict(routeid, oriid, desid, dayofweek, time)
+        result_dict[routeid] = pretime
+    return json.dumps(result_dict)
 
-@app.route('/weather', methods=['POST'])
-def weather():
-    crawler = API.BusWeatherCrawler()
-    result = crawler.request_weather_api(53.2989008333,-6.1959722222)
-    rDict = {"main": result['weather'][0]['main'], "temp": result['main']['temp']}
-    j = json.dump(rDict)
-    return j
 
 if __name__ == '__main__':
     #print(weather())
