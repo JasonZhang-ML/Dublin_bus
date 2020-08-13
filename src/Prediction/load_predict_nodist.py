@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import os
 from sklearn.svm import SVR, LinearSVR
+from scipy import stats
+from fitter import Fitter
 
 
 class average_model():
@@ -75,7 +77,23 @@ def predict_every_two(start, end, dayofweek, period, weather, DF, model):
 
 #     f = DF_whole[DF_whole.eval("PERIOD == '{}' and WEEK_DAY == {}".format(period,dow))]
     runningtime_predicted = model_selected.predict(pd.DataFrame([x1,x2,x3]).T)
-    return runningtime_predicted + DF_whole["DWELLTIME"].mean() # TODO: dwell time distribution
+
+    # fit dwell time with gamma distibution and predict it randomly based on fitted distribution
+    ## limit size of data to reduce runnning time
+    if len(DF_whole["DWELLTIME"]) > 501:
+        data = DF_whole["DWELLTIME"].iloc[:500]
+    else:
+        data = DF_whole["DWELLTIME"]
+
+    f = Fitter(data,distributions=['gamma'], timeout=6000)
+    f.fit()
+
+    param = f.fitted_param['gamma']
+    rv = stats.gamma(a=param[0],loc=param[1],scale=param[2])
+    dwelltime_predict = rv.rvs(1)
+
+    # return runningtime_predicted + DF_whole["DWELLTIME"].mean() # TODO: dwell time distribution
+    return runningtime_predicted + dwelltime_predict
 
 
 if __name__ == "__main__":
