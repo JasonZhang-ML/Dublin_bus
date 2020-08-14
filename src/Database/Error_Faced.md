@@ -44,3 +44,7 @@ vim /etc/my.cnf
 sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
 
 /etc/init.d/mysql restart
+
+
+## Author
+- Jiansheng Zhang
