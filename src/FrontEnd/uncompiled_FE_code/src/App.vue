@@ -1,23 +1,32 @@
 <template>
     <div id="app">
-        <Bar></Bar>
-        <Map></Map>
-
+        <Ads v-if="!afterLogin" id="ads"></Ads>
+        <Bar @child2="parent2"></Bar>
+        <!--<Map></Map>-->
     </div>
 </template>
 
 <script>
   import Bar from './components/Bar.vue'
-  import Map from './components/Map.vue'
+  import Ads from './components/Ads.vue'
+
+
+
 
   export default {
     name: 'App',
     data: function () {
-      return {}
+      return {
+        afterLogin:false
+      }
+    },methods:{
+      parent2:function (data) {
+        this.afterLogin=data
+      }
     },
     components: {
+      Ads,
       Bar,
-      Map
     }
   }
 </script>
@@ -29,7 +38,11 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        margin-top: 60px;
+        margin-top: 30px;
+    }
+    #ads{
+        margin-top: -24px;
+        margin-bottom:6px;
     }
 </style>
 

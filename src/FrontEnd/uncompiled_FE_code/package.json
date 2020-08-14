@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "dublinbus-client": "^1.0.10",
     "element-ui": "^2.13.2",
     "vue": "^2.6.11",
-    "vue-google-maps": "^0.1.21",
     "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {
