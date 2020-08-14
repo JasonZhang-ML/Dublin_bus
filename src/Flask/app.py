@@ -75,7 +75,7 @@ def login():
     error = None
     validation = 0
     if request.method == 'POST':
-        result = json.loads(request.data)
+        result = json.loads(request.data.decode('utf-8'))
         # return request.data
         if valid_login(result['username'], result['password']):
             # session['username'] = request.form.get('username')
@@ -96,7 +96,7 @@ def regist():
     error = None
     validation = 0
     if request.method == 'POST':
-        result = json.loads(request.data)
+        result = json.loads(request.data.decode('utf-8'))
         # if result['password1'] != result['password2']:
         #     error = 'The passwords is not same.'
         if valid_regist(result['username']):
@@ -109,7 +109,7 @@ def regist():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    dic = json.loads(request.data)
+    dic = json.loads(request.data.decode('utf-8'))
 
     result_dict = {}
     for route in dic:
@@ -125,4 +125,4 @@ def predict():
 
 if __name__ == '__main__':
     pymysql.install_as_MySQLdb()
-    app.run(port = 80)
+    app.run(host = '0.0.0.0', port = 80)

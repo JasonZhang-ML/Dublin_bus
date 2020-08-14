@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/ywq/Dublin_bus/src')
+sys.path.append('../../src')
 #from Externel_Data_API.bus_weather_crawler import BusWeatherCrawler
 from Prediction.load_predict_nodist import predict_every_two
 import joblib
@@ -24,7 +24,7 @@ def loadModel(dirc ,route_id):
     return None
 
 def getRouteStops(route_id, ori, des):
-    stops_file = open('/Users/ywq/Dublin_bus/src/Flask/route_stops.json', 'r')
+    stops_file = open('route_stops.json', 'r')
     stops_dic = json.load(stops_file)
     route_id_1 = route_id + '_1'
     route_id_2 = route_id + '_2'
