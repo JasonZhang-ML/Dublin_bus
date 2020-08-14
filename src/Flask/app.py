@@ -5,21 +5,19 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import and_, or_
 from functools import wraps
 import pymysql
+from getPredict import getPredict
 from flask_cors import CORS
-
-
-
-
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
-#local database
+# local database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:wangbowen1124@127.0.0.1:3306/test?charset=utf8'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-
+app.debug = True
 db = SQLAlchemy(app)
 
-#Login database
+
+# Login database
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True)
@@ -29,12 +27,13 @@ class User(db.Model):
     def __repr__(self):
         return '<User %r>' % self.username
 
+
 # database
 @app.before_first_request
 def create_db():
     db.drop_all()
     db.create_all()
-    
+
     admin = User(username='admin', password='123', email='admin@example.com')
     db.session.add(admin)
 
@@ -43,7 +42,8 @@ def create_db():
     db.session.add_all(guestes)
     db.session.commit()
 
-#Login functions
+
+# Login functions
 
 def valid_login(username, password):
     user = User.query.filter(and_(User.username == username, User.password == password)).first()
@@ -52,6 +52,7 @@ def valid_login(username, password):
     else:
         return False
 
+
 def valid_regist(username):
     user = User.query.filter(or_(User.username == username)).first()
     if user:
@@ -59,13 +60,15 @@ def valid_regist(username):
     else:
         return True
 
+
 # route
 
 
 @app.route('/')
 @app.route('/home')
 def index():
-    return render_template("./dist/index.html")
+    return render_template("index.html")
+
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -75,18 +78,20 @@ def login():
         result = json.loads(request.data)
         # return request.data
         if valid_login(result['username'], result['password']):
-            #session['username'] = request.form.get('username')
-            validation=1
-    return json.dumps({"validation":validation}, ensure_ascii=False)
+            # session['username'] = request.form.get('username')
+            validation = 1
+    return json.dumps({"validation": validation}, ensure_ascii=False)
 
     # return render_template('login.html', error=error)
+
 
 @app.route('/logout')
 def logout():
     session.pop('username', None)
     return redirect('/home')
 
-@app.route('/regist', methods=['GET','POST'])
+
+@app.route('/regist', methods=['GET', 'POST'])
 def regist():
     error = None
     validation = 0
@@ -99,25 +104,30 @@ def regist():
             db.session.add(user)
             db.session.commit()
             validation = 1
-    return json.dumps({"validation":validation}, ensure_ascii=False)
+    return json.dumps({"validation": validation}, ensure_ascii=False)
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    dic = json.load(request.data)
+    dic = json.loads(request.data)
+
     result_dict = {}
     for route in dic:
-        routeid =  route['route_id']
+        routeid = route['route_id'].upper()
         oriid = route['ori_id']
         desid = route['des_id']
         dayofweek = route['dayofweek']
         time = route['time']
-        pretime = pred.getPredict(routeid, oriid, desid, dayofweek, time)
+        pretime = getPredict(routeid, oriid, desid, dayofweek, time)
+        # pretime=a()
+
+        # return json.dumps(pretime)
         result_dict[routeid] = pretime
+
     return json.dumps(result_dict)
 
 
 if __name__ == '__main__':
-    #print(weather())
+    # print(weather())
     pymysql.install_as_MySQLdb()
     app.run()
-
