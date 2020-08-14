@@ -5,8 +5,8 @@ import pandas as pd
 import os
 from sklearn.svm import SVR, LinearSVR
 from scipy import stats
-#from transformer import Fitter
-
+from fitter import Fitter
+from pykalman import KalmanFilter
 
 class average_model():
     def __init__(self):
@@ -17,7 +17,7 @@ class average_model():
     def predict(self, X):
         return self.y.mean()
 
-def predict_list(line, direction, dayofweek, period, weather,stop_list=None, model=0):
+def predict_list(line, direction, dayofweek, period, weather,stop_list=None, model=0, dynamic=None):
     """
     Input
         line: routeid; direction: 1 or 2; stop_list: list of stopids
@@ -45,12 +45,12 @@ def predict_list(line, direction, dayofweek, period, weather,stop_list=None, mod
         
     results = [0,]
     for i in range(0,len(stop_list)-1):
-        results.append(predict_every_two(stop_list[i],stop_list[i+1],dayofweek,period,weather,DF, model))
+        results.append(predict_every_two(stop_list[i],stop_list[i+1],dayofweek,period,weather,DF, model, dynamic))
     result_cum = pd.DataFrame(np.cumsum(results), stop_list, columns=["Time cumsum"])
     return result_cum
 
 
-def predict_every_two(start, end, dayofweek, period, weather, DF, model):
+def predict_every_two(start, end, dayofweek, period, weather, DF, model, dynamic):
     # dayofweek [0:6]; period: '05:00:00'-'00:00:00'; weather: 'Fair' or 'Bad'
     start_end = str(start) + '_' + str(end)
     DF_whole = DF[DF.eval("STARTEND == '{}'".format(start_end))].copy()
@@ -77,13 +77,10 @@ def predict_every_two(start, end, dayofweek, period, weather, DF, model):
 
 #     f = DF_whole[DF_whole.eval("PERIOD == '{}' and WEEK_DAY == {}".format(period,dow))]
     runningtime_predicted = model_selected.predict(pd.DataFrame([x1,x2,x3]).T)
-    return runningtime_predicted + DF_whole["DWELLTIME"].mean()
-
-
 
     # fit dwell time with gamma distibution and predict it randomly based on fitted distribution
     ## limit size of data to reduce runnning time
-    '''if len(DF_whole["DWELLTIME"]) > 501:
+    if len(DF_whole["DWELLTIME"]) > 501:
         data = DF_whole["DWELLTIME"].iloc[:500]
     else:
         data = DF_whole["DWELLTIME"]
@@ -94,9 +91,22 @@ def predict_every_two(start, end, dayofweek, period, weather, DF, model):
     param = f.fitted_param['gamma']
     rv = stats.gamma(a=param[0],loc=param[1],scale=param[2])
     dwelltime_predict = rv.rvs(1)
+    difftime_predicted = runningtime_predicted + dwelltime_predict
+    
+    # kalman filter to adjust the prediction result
+    if dynamic != None:
+        initial_state = np.asarray([difftime_predicted])
+        measurements = np.asarray([initial_state]) # which should be repalced by realtime result
+        # realtime = ..... # TODO:the difftime of last bus that has just traveled along the road segment with multiple bus routes.
+        # measurements = np.asarray([realtime])
 
-    # return runningtime_predicted + DF_whole["DWELLTIME"].mean() # TODO: dwell time distribution
-    return runningtime_predicted + dwelltime_predict'''
+        kf = KalmanFilter(transition_matrices=[1], observation_matrices=[1], initial_state_mean=initial_state,n_dim_obs=1)
+        # kf = kf.em(measurements)
+        (filtered_state_means, filtered_state_covariances) = kf.filter(measurements)
+        difftime_predicted = filtered_state_means
+
+        # (smoothed_state_means, smoothed_state_covariances) = kf.smooth(measurements)
+    return difftime_predicted  
 
 
 if __name__ == "__main__":
