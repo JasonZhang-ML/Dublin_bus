@@ -102,7 +102,6 @@
   import axios from 'axios'
 
   export default {
-
     name: 'UserPage',
     data: function () {
       return {
@@ -134,15 +133,8 @@
         this.afterLogin = false;
         this.beforeLogin = true;
       },
-//      loading: function () {
-//        const loading = this.$loading({
-//          lock: true,
-//          text: 'Loading',
-//          spinner: 'el-icon-loading',
-//          background: 'rgba(0, 0, 0, 0.7)'
-//        });
-//      },
-//      注册
+
+
       signUp: function () {
         if (this.register.password != this.register.passwordConfirm) {
           this.$notify.error({
@@ -226,6 +218,7 @@
         this.users.password = '';
         this.toParent(false)
       },
+      //send data to parent componnet
       toParent:function (status) {
         this.$emit("child1",status)
       }

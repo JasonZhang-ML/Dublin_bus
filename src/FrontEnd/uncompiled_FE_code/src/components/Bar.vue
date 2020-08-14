@@ -157,6 +157,8 @@
         this.$emit("child2", this.afterLogin)
       },
       routesDisplay: function () {
+        this.stepList = []
+        this.stopList = []
         var _this = this;
         _this.loading = true;
 
