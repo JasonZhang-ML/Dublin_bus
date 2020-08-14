@@ -16,8 +16,8 @@ def getWeather():
     #j = json.dump(rDict)
     return result['weather'][0]['main']
 
-def loadModel(route_id):
-    pkl_name = str(route_id) + "_1_n.pkl"
+def loadModel(dirc ,route_id):
+    pkl_name = str(route_id) +"_" + str(dirc) + "_n.pkl"
     if os.path.exists(pkl_name):
         DF = joblib.load(pkl_name)
         return DF
@@ -47,6 +47,7 @@ def getRouteStops(route_id, ori, des):
                 enterInternal = True
             if(i == des):
                 break
+        result.append(1)
         return result
 
 
@@ -69,6 +70,7 @@ def getRouteStops(route_id, ori, des):
             if(i == des):
                 result.append(i)
                 break
+        result.append(2)
         return result
 
     return []
@@ -77,34 +79,43 @@ def getRouteStops(route_id, ori, des):
 
 
 def getPredict(route_id, ori_id, des_id, dayofweek, time):
-    model = None
-    stops = []
+    try:
+        model = None
+        stops = []
 
-    model = loadModel(route_id)
-    #if(model.empty() or model == None):
-    #    return -1
-    
-    stops = getRouteStops(route_id, ori_id, des_id)
-    if(stops == []):
+
+        stops = getRouteStops(route_id, ori_id, des_id)
+        if(stops == []):
+            return -1
+
+        direction = stops[-1]
+        stops.pop()
+        
+        model = loadModel(direction, route_id)
+        if(model is None):
+            return -1
+        
+        
+
+        predictTime = ""
+        if(int(time[3]) >= 3):
+            predictTime = time[0: 3] + "30:00"
+        else:
+            predictTime = time[0: 3] + "00:00"
+
+
+        #weather = getWeather()
+        weather = 'Fair'
+
+        results = 0
+        for i in range(0, len(stops) - 1):
+            time = predict_every_two(stops[i], stops[i + 1], dayofweek, predictTime, weather, model, 0)
+            if(type(time[0]) == np.float64 or type(time[0]) == int):
+                results += float(time[0])
+        return results
+    except Exception:
         return -1
-
-    predictTime = ""
-    if(int(time[3]) >= 3):
-        predictTime = time[0: 3] + "30:00"
-    else:
-        predictTime = time[0: 3] + "00:00"
-
-
-    #weather = getWeather()
-    weather = 'Fair'
-
-    results = 0
-    for i in range(0, len(stops) - 1):
-        time = predict_every_two(stops[i], stops[i + 1], dayofweek, predictTime, weather, model, 0)
-        if(type(time[0]) == np.float64 or type(time[0]) == int):
-            results += float(time[0])
-    return results
 
     
 if __name__ == '__main__':
-    getPredict('44B', '2829', '6006', 0, '08:00:00')
+    print(getPredict('44', '2818', '2825', 0, '08:00:00'))
