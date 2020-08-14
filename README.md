@@ -2,7 +2,7 @@
 Dublin bus is a web based app which can predict time spend from the original stop to the destination stop.
 
 
-###Running instruction
+### Running instruction
 
 This core of application is based on Flask. Please find the Flask folder in the src folder and enter `flask run` in the terminal to start the service.
 
