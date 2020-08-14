@@ -9,6 +9,7 @@ This core of application is based on Flask. Please find the Flask folder in the 
 
 Since our trained models exceed 12GB, it's impossible to submit them together. You may check our models on the server provided by the UCD or go to the website to check the application.
 
+http://137.43.49.28/
 
 ### Front end code
 The front-end code is based on Vue and Vue-CLI. The code that I programmed in the "FrontEnd" file are uncompiled. After finishing, I use Webpack to bundle my code. The bundled code is static assets and they are in the Flask template and static folder.
