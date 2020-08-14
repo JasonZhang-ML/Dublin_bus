@@ -68,7 +68,6 @@ def getRouteStops(route_id, ori, des):
                 result.append(i)
                 enterInternal = True
             if(i == des):
-                result.append(i)
                 break
         result.append(2)
         return result

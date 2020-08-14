@@ -125,4 +125,4 @@ def predict():
 
 if __name__ == '__main__':
     pymysql.install_as_MySQLdb()
-    app.run()
+    app.run(port = 80)
