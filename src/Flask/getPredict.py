@@ -1,7 +1,7 @@
 import sys
-sys.path.append('../../src')
+sys.path.append('/Users/ywq/research/Dublin_bus/src/')
 #from Externel_Data_API.bus_weather_crawler import BusWeatherCrawler
-from Prediction.load_predict_nodist import predict_every_two
+from Prediction.load_predict_nodist import predict_every_two, predict_list
 import joblib
 import numpy as np
 import os
@@ -24,7 +24,7 @@ def loadModel(dirc ,route_id):
     return None
 
 def getRouteStops(route_id, ori, des):
-    stops_file = open('route_stops.json', 'r')
+    stops_file = open('/Users/ywq/research/Dublin_bus/src/Flask/route_stops.json', 'r')
     stops_dic = json.load(stops_file)
     route_id_1 = route_id + '_1'
     route_id_2 = route_id + '_2'
@@ -107,14 +107,15 @@ def getPredict(route_id, ori_id, des_id, dayofweek, time):
         weather = 'Fair'
 
         results = 0
-        for i in range(0, len(stops) - 1):
+        return predict_list(route_id, direction, dayofweek, predictTime, weather, stops)
+        '''for i in range(0, len(stops) - 1):
             time = predict_every_two(stops[i], stops[i + 1], dayofweek, predictTime, weather, model, 0)
             if(type(time[0]) == np.float64 or type(time[0]) == int):
                 results += float(time[0])
-        return results
+        return results'''
     except Exception:
         return -1
 
     
 if __name__ == '__main__':
-    print(getPredict('44', '2818', '2825', 0, '08:00:00'))
+    print(getPredict('44', '4115', '0206', 0, '08:00:00'))
