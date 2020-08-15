@@ -30,7 +30,7 @@ def predict_list(line, direction, dayofweek, period, weather,stop_list=None, mod
     
     pkl_name = str(line) + "_" + str(direction) + "_n.pkl"
     if os.path.exists(pkl_name):
-        DF = joblib.load(pkl_name)
+        DF = joblib.load('/Users/ywq/Dublin_bus/' + pkl_name)
     else:
         # TODO: get the pkl
         return None
@@ -126,6 +126,9 @@ if __name__ == "__main__":
     Output
         result_cum
     """
-    print(predict_list(13, 1, 1, '8:30:00', 'Fair',stop_list=[2143,2145,4670], model=0))
+    #print(predict_list(13, 1, 1, '8:30:00', 'Fair',stop_list=[2143,2145,4670], model=0))
     # if stop_list missed or is None, choose whole route of the frist trip.
-    print(predict_list(13, 1, 1, '8:30:00', 'Fair', model=2))
+    #print(predict_list(13, 1, 1, '8:30:00', 'Fair', model=2))
+
+    #DF = joblib.load('/Users/ywq/research/Dublin_bus/44B_1_n.pkl')
+    #print(1)

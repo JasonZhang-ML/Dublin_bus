@@ -78,43 +78,43 @@ def getRouteStops(route_id, ori, des):
 
 
 def getPredict(route_id, ori_id, des_id, dayofweek, time):
-    try:
-        model = None
-        stops = []
+    #try:
+    model = None
+    stops = []
 
 
-        stops = getRouteStops(route_id, ori_id, des_id)
-        if(stops == []):
-            return -1
-
-        direction = stops[-1]
-        stops.pop()
-        
-        model = loadModel(direction, route_id)
-        if(model is None):
-            return -1
-        
-        
-
-        predictTime = ""
-        if(int(time[3]) >= 3):
-            predictTime = time[0: 3] + "30:00"
-        else:
-            predictTime = time[0: 3] + "00:00"
-
-
-        #weather = getWeather()
-        weather = 'Fair'
-
-        results = 0
-        time = predict_list(route_id, direction, dayofweek, predictTime, weather, stops, model = 2)
-        if(str(time['Time cumsum'][-1]) == 'nan'):
-            return -1
-        return time['Time cumsum'][-1]
-    except Exception as e:
-        print(e)    
+    stops = getRouteStops(route_id, ori_id, des_id)
+    if(stops == []):
         return -1
+
+    direction = stops[-1]
+    stops.pop()
+    
+    #model = loadModel(direction, route_id)
+    #if(model is None):
+    #    return -1
+    
+    
+
+    predictTime = ""
+    if(int(time[3]) >= 3):
+        predictTime = time[0: 3] + "30:00"
+    else:
+        predictTime = time[0: 3] + "00:00"
+
+
+    #weather = getWeather()
+    weather = 'Fair'
+
+    results = 0
+    time = predict_list(route_id, direction, dayofweek, predictTime, weather, stops, model = 2)
+    if(str(time['Time cumsum'][-1]) == 'nan'):
+        return -1
+    return time['Time cumsum'][-1]
+    #except Exception as e:
+    #    print(e)    
+    #    return -1
 
     
 if __name__ == '__main__':
-    print(getPredict('44', '4115', '0206', 0, '08:00:00'))
+    print(getPredict('44B', '3510', '3512', 5, '08:00:00'))
