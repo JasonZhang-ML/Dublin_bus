@@ -13,7 +13,7 @@ CORS(app, supports_credentials=True)
 # local database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:dublinbus@127.0.0.1:3306/test?charset=utf8'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-app.debug = True
+#app.debug = True
 db = SQLAlchemy(app)
 
 
