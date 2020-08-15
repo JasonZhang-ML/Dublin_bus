@@ -85,14 +85,16 @@ def predict_every_two(start, end, dayofweek, period, weather, DF, model, dynamic
     else:
         data = DF_whole["DWELLTIME"]
 
-    f = Fitter(data,distributions=['gamma'], timeout=6000)
-    f.fit()
+    if model != 2:
+        f = Fitter(data,distributions=['gamma'], timeout=6000)
+        f.fit()
+        param = f.fitted_param['gamma']
+        rv = stats.gamma(a=param[0],loc=param[1],scale=param[2])
+        dwelltime_predict = rv.rvs(1)
+        difftime_predicted = runningtime_predicted + dwelltime_predict
+    else:
+        difftime_predicted = runningtime_predicted + data.mean()
 
-    param = f.fitted_param['gamma']
-    rv = stats.gamma(a=param[0],loc=param[1],scale=param[2])
-    dwelltime_predict = rv.rvs(1)
-    difftime_predicted = runningtime_predicted + dwelltime_predict
-    
     # kalman filter to adjust the prediction result
     if dynamic != None:
         initial_state = np.asarray([difftime_predicted])
