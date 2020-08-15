@@ -164,19 +164,27 @@
 
         var o = false;
         var d = false;
-        for (var i = 0; i < stopDic.length; i++) {
-          if (this.origin === stopDic[i]['value']) {
-            o = true;
-            break
-          }
-        }
-        for (var j = 0; j < stopDic.length; j++) {
-          if (this.destination === stopDic[j]['value']) {
-            d = true;
-            break
-          }
-        }
-        if (d && o) {
+
+//        for (var i = 0; i < stopDic.length; i++) {
+//          if (this.origin === stopDic[i]['value']) {
+//            o = true;
+//            break
+//          }
+//        }
+//        for (var j = 0; j < stopDic.length; j++) {
+//          if (this.destination === stopDic[j]['value']) {
+//            d = true;
+//            break
+//          }
+//        }
+
+        o=stopDic.some(function(item){
+          return item.value==_this.origin
+        });
+        d=stopDic.some(function(item){
+          return item.value==_this.destination
+        });
+        if (o&&d) {
           this.queryRoutes();
 
 
@@ -199,7 +207,7 @@
       },
       createFilter(queryString) {
         return (stops) => {
-          return (stops.value.toLowerCase().indexOf(queryString.toLowerCase()) === 0);
+          return (stops.value.toLowerCase().indexOf(queryString.toLowerCase()) !== -1);
         };
       },
       loadAll() {
